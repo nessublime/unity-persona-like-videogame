@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9afaced03922d5a4f8e5d9eb1b4ee064, type: 3}
+  m_Name: D2
+  m_EditorClassIdentifier: 
+  <DialogueName>k__BackingField: D2
+  <DialogueType>k__BackingField: 1
+  <IsStartingDialogue>k__BackingField: 0
+  <Choices>k__BackingField:
+  - <NextDialogue>k__BackingField: {fileID: 0}
+    <Text>k__BackingField: Todo lo que haga falta!
+    <Stat>k__BackingField: V
+    <StatValue>k__BackingField: 5
+  - <NextDialogue>k__BackingField: {fileID: 0}
+    <Text>k__BackingField: Se ira viendo poco a poco
+    <Stat>k__BackingField: T
+    <StatValue>k__BackingField: 3
+  - <NextDialogue>k__BackingField: {fileID: 0}
+    <Text>k__BackingField: Ni idea la verdad
+    <Stat>k__BackingField: /
+    <StatValue>k__BackingField: /
+  - <NextDialogue>k__BackingField: {fileID: 0}
+    <Text>k__BackingField: 
+    <Stat>k__BackingField: '-'
+    <StatValue>k__BackingField: '-'
+  <Text>k__BackingField: "Oye Ness, que mejoras le a\xF1adiras al sistema de dialogo?"
+  <Conversant>k__BackingField: J.Marcos
+  <Expression>k__BackingField: Happy

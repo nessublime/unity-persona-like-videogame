@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9afaced03922d5a4f8e5d9eb1b4ee064, type: 3}
+  m_Name: M1
+  m_EditorClassIdentifier: 
+  <DialogueName>k__BackingField: M1
+  <DialogueType>k__BackingField: 1
+  <IsStartingDialogue>k__BackingField: 0
+  <Choices>k__BackingField:
+  - <NextDialogue>k__BackingField: {fileID: 11400000, guid: d93675dcce44e5b479171bf680daa9e5, type: 2}
+    <Text>k__BackingField: Esta bastante decente
+    <Stat>k__BackingField: /
+    <StatValue>k__BackingField: /
+  - <NextDialogue>k__BackingField: {fileID: 11400000, guid: f47c57219543e7d4da83595c3a121163, type: 2}
+    <Text>k__BackingField: Deberiamos mejorarlo bastante aun
+    <Stat>k__BackingField: /
+    <StatValue>k__BackingField: /
+  - <NextDialogue>k__BackingField: {fileID: 11400000, guid: 3ddd24de5f05bbe44858676637f8874c, type: 2}
+    <Text>k__BackingField: '[No decir nada]'
+    <Stat>k__BackingField: /
+    <StatValue>k__BackingField: /
+  - <NextDialogue>k__BackingField: {fileID: 0}
+    <Text>k__BackingField: 
+    <Stat>k__BackingField: '-'
+    <StatValue>k__BackingField: '-'
+  <Text>k__BackingField: Esta es una prueba de dialogos MultiChoice! Que opinas de
+    su funcionamiento?
+  <Conversant>k__BackingField: Asier_Default
+  <Expression>k__BackingField: Happy

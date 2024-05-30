@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/SpamUI.uss?fileID=7433441132597879392&amp;guid=5c4dd7ffa664e5a45b4c0c20e58ceb2a&amp;type=3#SpamUI" />
+    <AspectRatioPanel name="ARP" class="ARP">
+        <ui:Label tabindex="-1" text="¡Ten cuidao con el&#10;RESBALÓN&#10;que la puerta abre pa atrás!" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Alert_Text" class="Alert_Text HideDisplay" style="font-size: 5px;" />
+        <ui:VisualElement name="ItemCollected_Panel" class="ItemCollected_Panel">
+            <ui:VisualElement name="ItemPortrait" class="ItemPortrait" style="background-image: url(&apos;project://database/Assets/UI/estrella5puntas.png?fileID=2800000&amp;guid=54fa0dfbeb323fd4e833b4a8e5c57abf&amp;type=3#estrella5puntas&apos;);" />
+            <ui:Label tabindex="-1" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ItemDescription" class="ItemDescription" style="font-size: 4px;" />
+        </ui:VisualElement>
+    </AspectRatioPanel>
+</ui:UXML>

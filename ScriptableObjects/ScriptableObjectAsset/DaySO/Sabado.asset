@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ef1d6417a506954499edcd4c8f96d40, type: 3}
+  m_Name: Sabado
+  m_EditorClassIdentifier: 
+  dayNumber: 1
+  dayName: Lunes
+  Timetable:
+  - horaInicial: 7
+    initialScene: {fileID: 11400000, guid: 3b833e0646f3d7f4fbaa0d7247ca621b, type: 2}
+    outFreeScene: {fileID: 11400000, guid: 9629f5c6f2c22c242ab2ca2d175328af, type: 2}
+  - horaInicial: 8
+    initialScene: {fileID: 11400000, guid: ecc30de71fe57b149afcbe36e0201dcb, type: 2}
+    outFreeScene: {fileID: 11400000, guid: 6cda7d904087eea41a3faa6c9dbcc5a6, type: 2}
+  - horaInicial: 9
+    initialScene: {fileID: 11400000, guid: 2543ccc865b63c6498c74a00f6931812, type: 2}
+    outFreeScene: {fileID: 11400000, guid: 2543ccc865b63c6498c74a00f6931812, type: 2}
+  - horaInicial: 10
+    initialScene: {fileID: 11400000, guid: 2543ccc865b63c6498c74a00f6931812, type: 2}
+    outFreeScene: {fileID: 11400000, guid: 2543ccc865b63c6498c74a00f6931812, type: 2}
+  - horaInicial: 11
+    initialScene: {fileID: 11400000, guid: 2543ccc865b63c6498c74a00f6931812, type: 2}
+    outFreeScene: {fileID: 11400000, guid: 2543ccc865b63c6498c74a00f6931812, type: 2}
+  - horaInicial: 12
+    initialScene: {fileID: 11400000, guid: 9dee32ed030104b4c954dbcbc2079f77, type: 2}
+    outFreeScene: {fileID: 11400000, guid: 2543ccc865b63c6498c74a00f6931812, type: 2}
+  - horaInicial: 13
+    initialScene: {fileID: 11400000, guid: 2543ccc865b63c6498c74a00f6931812, type: 2}
+    outFreeScene: {fileID: 11400000, guid: 2543ccc865b63c6498c74a00f6931812, type: 2}
+  - horaInicial: 14
+    initialScene: {fileID: 11400000, guid: 2543ccc865b63c6498c74a00f6931812, type: 2}
+    outFreeScene: {fileID: 11400000, guid: 2543ccc865b63c6498c74a00f6931812, type: 2}
+  - horaInicial: 15
+    initialScene: {fileID: 11400000, guid: 2543ccc865b63c6498c74a00f6931812, type: 2}
+    outFreeScene: {fileID: 11400000, guid: 2543ccc865b63c6498c74a00f6931812, type: 2}
+  - horaInicial: 16
+    initialScene: {fileID: 11400000, guid: 2543ccc865b63c6498c74a00f6931812, type: 2}
+    outFreeScene: {fileID: 11400000, guid: 2543ccc865b63c6498c74a00f6931812, type: 2}
+  - horaInicial: 17
+    initialScene: {fileID: 11400000, guid: 2543ccc865b63c6498c74a00f6931812, type: 2}
+    outFreeScene: {fileID: 11400000, guid: 2543ccc865b63c6498c74a00f6931812, type: 2}
+  - horaInicial: 18
+    initialScene: {fileID: 11400000, guid: 2543ccc865b63c6498c74a00f6931812, type: 2}
+    outFreeScene: {fileID: 11400000, guid: 6cda7d904087eea41a3faa6c9dbcc5a6, type: 2}
+  - horaInicial: 19
+    initialScene: {fileID: 11400000, guid: ae5b3b0767629d04c8ca794535f8dc88, type: 2}
+    outFreeScene: {fileID: 11400000, guid: 2543ccc865b63c6498c74a00f6931812, type: 2}
+  - horaInicial: 20
+    initialScene: {fileID: 11400000, guid: ae5b3b0767629d04c8ca794535f8dc88, type: 2}
+    outFreeScene: {fileID: 11400000, guid: 2543ccc865b63c6498c74a00f6931812, type: 2}
+  - horaInicial: 21
+    initialScene: {fileID: 11400000, guid: ae5b3b0767629d04c8ca794535f8dc88, type: 2}
+    outFreeScene: {fileID: 11400000, guid: 2543ccc865b63c6498c74a00f6931812, type: 2}
+  - horaInicial: 22
+    initialScene: {fileID: 11400000, guid: ae5b3b0767629d04c8ca794535f8dc88, type: 2}
+    outFreeScene: {fileID: 11400000, guid: 2543ccc865b63c6498c74a00f6931812, type: 2}
+  - horaInicial: 23
+    initialScene: {fileID: 11400000, guid: ae5b3b0767629d04c8ca794535f8dc88, type: 2}
+    outFreeScene: {fileID: 11400000, guid: 2543ccc865b63c6498c74a00f6931812, type: 2}
+  - horaInicial: 0
+    initialScene: {fileID: 11400000, guid: ae5b3b0767629d04c8ca794535f8dc88, type: 2}
+    outFreeScene: {fileID: 11400000, guid: 2543ccc865b63c6498c74a00f6931812, type: 2}
+  - horaInicial: 1
+    initialScene: {fileID: 11400000, guid: ae5b3b0767629d04c8ca794535f8dc88, type: 2}
+    outFreeScene: {fileID: 11400000, guid: 2543ccc865b63c6498c74a00f6931812, type: 2}
+  - horaInicial: 2
+    initialScene: {fileID: 11400000, guid: ae5b3b0767629d04c8ca794535f8dc88, type: 2}
+    outFreeScene: {fileID: 11400000, guid: 2543ccc865b63c6498c74a00f6931812, type: 2}
+  - horaInicial: 3
+    initialScene: {fileID: 11400000, guid: 1fb53942709ce0342a11c9c69699d825, type: 2}
+    outFreeScene: {fileID: 11400000, guid: 2543ccc865b63c6498c74a00f6931812, type: 2}
+  - horaInicial: 4
+    initialScene: {fileID: 11400000, guid: 2543ccc865b63c6498c74a00f6931812, type: 2}
+    outFreeScene: {fileID: 11400000, guid: 2543ccc865b63c6498c74a00f6931812, type: 2}
+  - horaInicial: 5
+    initialScene: {fileID: 11400000, guid: 2543ccc865b63c6498c74a00f6931812, type: 2}
+    outFreeScene: {fileID: 11400000, guid: 2543ccc865b63c6498c74a00f6931812, type: 2}
+  - horaInicial: 6
+    initialScene: {fileID: 11400000, guid: 2543ccc865b63c6498c74a00f6931812, type: 2}
+    outFreeScene: {fileID: 11400000, guid: 2543ccc865b63c6498c74a00f6931812, type: 2}

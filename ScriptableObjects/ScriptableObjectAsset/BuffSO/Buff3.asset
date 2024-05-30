@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 862ae53ebb2557043832336369753135, type: 3}
+  m_Name: Buff3
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 2800000, guid: 5a56b6a2883427d41b452f28898f7055, type: 3}
+  buffContainer: {fileID: 654321370370293847, guid: 080dc99568e15884eaeb1a95b7dba6cf, type: 3}
+  buffInfo: 'Buff y cosas
+
+
+    Buff y cosas'

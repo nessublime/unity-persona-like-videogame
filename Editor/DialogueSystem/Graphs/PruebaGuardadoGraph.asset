@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0202a3095b7477a4091d56344f0af6b3, type: 3}
+  m_Name: PruebaGuardadoGraph
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: PruebaGuardado
+  <Groups>k__BackingField: []
+  <Nodes>k__BackingField:
+  - <ID>k__BackingField: 611b159d-e878-481d-88a7-6c3b9a65a7ec
+    <GroupID>k__BackingField: 
+    <Name>k__BackingField: MasterNode
+    <DialogueType>k__BackingField: 5
+    <Position>k__BackingField: {x: 0, y: 0}
+    <Choices>k__BackingField:
+    - <NodeID>k__BackingField: f70d493e-75cd-4462-82b4-3d2ea0ba9ad9
+    <Text>k__BackingField: 
+    <Stat>k__BackingField: 
+    <StatEXP>k__BackingField: 
+    <Expression>k__BackingField: 
+    <Conversant>k__BackingField: 
+    <Positions>k__BackingField: []
+    <Conversants>k__BackingField: []
+    <Priority>k__BackingField: 
+  - <ID>k__BackingField: f70d493e-75cd-4462-82b4-3d2ea0ba9ad9
+    <GroupID>k__BackingField: 
+    <Name>k__BackingField: D1
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 378, y: 139}
+    <Choices>k__BackingField:
+    - <NodeID>k__BackingField: a6bb0698-b833-46f4-bba4-63aaa987aa38
+    <Text>k__BackingField: Que buen sistema de dialogos Ness!
+    <Stat>k__BackingField: 
+    <StatEXP>k__BackingField: 
+    <Expression>k__BackingField: Happy
+    <Conversant>k__BackingField: J.Marcos
+    <Positions>k__BackingField: []
+    <Conversants>k__BackingField: []
+    <Priority>k__BackingField: 
+  - <ID>k__BackingField: a6bb0698-b833-46f4-bba4-63aaa987aa38
+    <GroupID>k__BackingField: 
+    <Name>k__BackingField: aaaaaaa
+    <DialogueType>k__BackingField: 2
+    <Position>k__BackingField: {x: 375, y: 342}
+    <Choices>k__BackingField:
+    - <NodeID>k__BackingField: 8f1d0077-769a-43f6-9583-f01e5f761fc7
+    <Text>k__BackingField: Gracias manin, esta increible la verdad.
+    <Stat>k__BackingField: Ardid
+    <StatEXP>k__BackingField: 200
+    <Expression>k__BackingField: Angry
+    <Conversant>k__BackingField: 
+    <Positions>k__BackingField: []
+    <Conversants>k__BackingField: []
+    <Priority>k__BackingField: 
+  - <ID>k__BackingField: 8f1d0077-769a-43f6-9583-f01e5f761fc7
+    <GroupID>k__BackingField: 
+    <Name>k__BackingField: D3
+    <DialogueType>k__BackingField: 3
+    <Position>k__BackingField: {x: 1042, y: 135}
+    <Choices>k__BackingField:
+    - <NodeID>k__BackingField: 987bf079-a317-4492-8722-4d449ca185ab
+    - <NodeID>k__BackingField: 
+    - <NodeID>k__BackingField: 
+    - <NodeID>k__BackingField: 
+    <Text>k__BackingField: Y mis interfaces se ven que flipas!
+    <Stat>k__BackingField: 
+    <StatEXP>k__BackingField: 
+    <Expression>k__BackingField: Angry
+    <Conversant>k__BackingField: 
+    <Positions>k__BackingField: []
+    <Conversants>k__BackingField: []
+    <Priority>k__BackingField: '  --  '
+  - <ID>k__BackingField: 987bf079-a317-4492-8722-4d449ca185ab
+    <GroupID>k__BackingField: 
+    <Name>k__BackingField: DialogueName
+    <DialogueType>k__BackingField: 4
+    <Position>k__BackingField: {x: 0, y: 0}
+    <Choices>k__BackingField:
+    - <NodeID>k__BackingField: 1aa2f6eb-f818-46f3-a977-842adbe6be8b
+    <Text>k__BackingField: 
+    <Stat>k__BackingField: 
+    <StatEXP>k__BackingField: 
+    <Expression>k__BackingField: 
+    <Conversant>k__BackingField: 
+    <Positions>k__BackingField: []
+    <Conversants>k__BackingField: []
+    <Priority>k__BackingField: 
+  - <ID>k__BackingField: 1aa2f6eb-f818-46f3-a977-842adbe6be8b
+    <GroupID>k__BackingField: 
+    <Name>k__BackingField: D2
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 1397, y: 414}
+    <Choices>k__BackingField:
+    - <NodeID>k__BackingField: 
+    - <NodeID>k__BackingField: 
+    - <NodeID>k__BackingField: 
+    - <NodeID>k__BackingField: 
+    <Text>k__BackingField: "Oye Ness, que mejoras le a\xF1adiras al sistema de dialogo?"
+    <Stat>k__BackingField: 
+    <StatEXP>k__BackingField: 
+    <Expression>k__BackingField: Happy
+    <Conversant>k__BackingField: J.Marcos
+    <Positions>k__BackingField: []
+    <Conversants>k__BackingField: []
+    <Priority>k__BackingField: 
+  <OldGroupNames>k__BackingField: []
+  <OldUngroupedNodeNames>k__BackingField:
+  - MasterNode
+  - D1
+  - aaaaaaa
+  - D3
+  - DialogueName
+  - D2
+  <OldGroupedNodeNames>k__BackingField:
+    list: []

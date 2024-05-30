@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9afaced03922d5a4f8e5d9eb1b4ee064, type: 3}
+  m_Name: D3
+  m_EditorClassIdentifier: 
+  <DialogueName>k__BackingField: D3
+  <DialogueType>k__BackingField: 1
+  <IsStartingDialogue>k__BackingField: 0
+  <Choices>k__BackingField:
+  - <NextDialogue>k__BackingField: {fileID: 11400000, guid: 21885796395fb7b449d7ac29c1308507, type: 2}
+    <Text>k__BackingField: Soy el mas valiente!
+    <Stat>k__BackingField: V
+    <StatValue>k__BackingField: 0
+  - <NextDialogue>k__BackingField: {fileID: 11400000, guid: 6bf8335cceaf37744a8346d39f1ab914, type: 2}
+    <Text>k__BackingField: Mi inteligencia es inigualable
+    <Stat>k__BackingField: E
+    <StatValue>k__BackingField: 0
+  - <NextDialogue>k__BackingField: {fileID: 11400000, guid: fdb29a9ac8340c745a7680e63a120869, type: 2}
+    <Text>k__BackingField: Soy capaz de percbirlo todo
+    <Stat>k__BackingField: L
+    <StatValue>k__BackingField: 0
+  - <NextDialogue>k__BackingField: {fileID: 11400000, guid: 5ddb062f6331c884e8839c43935d7e71, type: 2}
+    <Text>k__BackingField: Mi templanza es digna de un monje tibetano
+    <Stat>k__BackingField: T
+    <StatValue>k__BackingField: 0
+  <Text>k__BackingField: Perfecto! Demuestrame lo que sabes hacer!
+  <Conversant>k__BackingField: Asier_Default
+  <Expression>k__BackingField: Happy

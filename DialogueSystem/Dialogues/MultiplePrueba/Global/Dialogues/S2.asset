@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1f6bd39a14309848bef86b079b3a790, type: 3}
+  m_Name: S2
+  m_EditorClassIdentifier: 
+  <DialogueName>k__BackingField: S2
+  <DialogueType>k__BackingField: 0
+  <IsStartingDialogue>k__BackingField: 0
+  <Choices>k__BackingField:
+  - <NextDialogue>k__BackingField: {fileID: 11400000, guid: 8c058e7f53247fb439961a57bcf7542d, type: 2}
+    <Text>k__BackingField: 
+  <Text>k__BackingField: No se man...creo que aun esta muy verde...
+  <Conversant>k__BackingField: Ness_Default
+  <Expression>k__BackingField: Sad

@@ -1,0 +1,932 @@
+.Global_Panel {
+    flex-grow: 1;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+}
+
+.ARP {
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.unity-text-element {
+    font-size: 30px;
+    white-space: normal;
+    -unity-text-align: middle-center;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgb(255, 255, 255);
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    height: 66%;
+    overflow: visible;
+}
+
+.Mobile_Panel {
+    flex-grow: 0;
+    width: 23%;
+    height: 82%;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    background-image: url('project://database/Assets/UI/UIAssets/MobileUI/Mobile_border.png?fileID=2800000&guid=a294db9fdd890e84dae3d2197959b4ec&type=3#Mobile_border');
+    -unity-background-scale-mode: scale-to-fit;
+    -unity-background-image-tint-color: rgb(0, 0, 0);
+    align-self: flex-end;
+    right: 5%;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.25s;
+}
+
+.Screen_Panel {
+    width: 91%;
+    height: 95%;
+    background-image: url('project://database/Assets/UI/UIAssets/MobileUI/Mobile_background_1.png?fileID=2800000&guid=c5958c0e0f766e24583e7ca9c5b8733b&type=3#Mobile_background_1');
+    -unity-background-scale-mode: stretch-to-fill;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.Top_Panel {
+    width: 90%;
+    height: 15%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.State_Panel {
+    width: 100%;
+    height: 30%;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.Notifications_Panel {
+    flex-grow: 0;
+    width: 60%;
+    height: 100%;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.Notification {
+    width: 16.666%;
+    height: 100%;
+    background-image: url('project://database/Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigninemail@2x.png?fileID=2800000&guid=ddf2e76e8a1f88f46ae1e42277850b48&type=3#buttonssosigninemail@2x');
+    -unity-background-scale-mode: scale-to-fit;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+}
+
+.Battery_Panel {
+    flex-grow: 0;
+    width: 40%;
+    height: 100%;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.BatteryBorder {
+    flex-grow: 0;
+    width: 100%;
+    height: 80%;
+    -unity-background-scale-mode: scale-to-fit;
+    background-image: url('project://database/Assets/UI/UIAssets/MobileUI/Battery_border.png?fileID=2800000&guid=94b6a009d190ea4458cc97473cf2af03&type=3#Battery_border');
+    -unity-background-image-tint-color: rgb(0, 0, 0);
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.BatteryProgress {
+    flex-grow: 1;
+    position: absolute;
+    width: 53%;
+    height: 67%;
+    left: 16%;
+    top: 16%;
+}
+
+.BatteryProgressBar {
+    flex-grow: 0;
+    background-color: rgb(221, 217, 0);
+    height: 100%;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.BatteryLevel {
+    left: -12%;
+}
+
+.TimeInfo_Panel {
+    flex-grow: 1;
+    width: 100%;
+    height: 70%;
+    align-items: center;
+    justify-content: center;
+}
+
+.Mid_Panel {
+    width: 100%;
+    height: 78%;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.Apps_Panel {
+    width: 300%;
+    height: 72%;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: nowrap;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.25s;
+    transition-property: translate;
+}
+
+.target_L_Apps_Panel {
+    translate: 33.33% 0;
+    transform-origin: center;
+    transition-property: translate;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in-out;
+}
+
+.target_R_Apps_Panel {
+    translate: -33.33% 0;
+    transform-origin: center;
+    transition-property: translate;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in-out;
+}
+
+.LMR_Apps_Panel {
+    width: 33%;
+    height: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-self: center;
+}
+
+.App {
+    -unity-background-scale-mode: scale-to-fit;
+    background-image: url('project://database/Assets/UI/UIAssets/MobileUI/App.png?fileID=2800000&guid=cbc804461ab690f469a72c254eb14418&type=3#App');
+    width: 19%;
+    height: 14.4%;
+    transition-property: scale;
+    transition-duration: 0.1s;
+    margin-bottom: 6%;
+    margin-top: 6%;
+    margin-right: 6%;
+    margin-left: 6%;
+    -unity-background-image-tint-color: rgb(0, 15, 197);
+}
+
+.App:focus {
+    scale: 1.2 1.2;
+    transition-duration: 0.25s;
+    transition-property: scale;
+}
+
+.PointIndex_Panel {
+    height: 8%;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.PointIndex {
+    height: 25%;
+    width: 12%;
+    background-image: url('project://database/Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/Circle.png?fileID=2800000&guid=ebe73ca9363db456bacf42c025bb4847&type=3#Circle');
+    -unity-background-scale-mode: scale-to-fit;
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0.35);
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.1s;
+}
+
+.active_PointIndex {
+    height: 25%;
+    width: 12%;
+    background-image: url('project://database/Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/Circle.png?fileID=2800000&guid=ebe73ca9363db456bacf42c025bb4847&type=3#Circle');
+    -unity-background-scale-mode: scale-to-fit;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    scale: 1.3 1.3;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.1s;
+}
+
+.MainApps_Panel {
+    width: 90%;
+    height: 20%;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.MainApp {
+    width: 19.5%;
+    -unity-background-scale-mode: scale-to-fit;
+    background-image: url('project://database/Assets/UI/UIAssets/MobileUI/App.png?fileID=2800000&guid=cbc804461ab690f469a72c254eb14418&type=3#App');
+    height: 53%;
+    -unity-background-image-tint-color: rgb(76, 0, 99);
+    transition-duration: 0.1s;
+    transition-property: scale;
+    margin-top: 7%;
+    margin-right: 7%;
+    margin-bottom: 7%;
+    margin-left: 7%;
+}
+
+.MainApp:focus {
+    scale: 1.2 1.2;
+    transition-duration: 0.1s;
+    transition-property: scale;
+}
+
+.OppenedApps_Panel {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.Bot_Panel {
+    width: 100%;
+    height: 7%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.BotButton {
+    width: 25%;
+    height: 75%;
+    -unity-background-scale-mode: scale-to-fit;
+    -unity-background-image-tint-color: rgb(0, 0, 0);
+}
+
+.AppStats {
+    -unity-background-image-tint-color: rgb(113, 113, 113);
+    background-image: url('project://database/Assets/UI/UIAssets/MobileUI/Mobile_background.png?fileID=2800000&guid=57a223213fd313b4daa86e08fbecf0b3&type=3#Mobile_background');
+    width: 100%;
+    height: 100%;
+    translate: -30% -28%;
+    scale: 0 0;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.25s;
+    position: absolute;
+    display: none;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-top: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    flex-grow: 0;
+}
+
+.Stat_Panel {
+    flex-grow: 0;
+    width: 100%;
+    height: 15%;
+    flex-direction: row;
+}
+
+.StatIcon_Panel {
+    flex-grow: 0;
+    width: 44%;
+    flex-direction: row;
+    background-image: url('project://database/Assets/UI/UIAssets/DialogueUI/Stat_Box.png?fileID=2800000&guid=db9ae3446ea8c264ea4083cfe8a41499&type=3#Stat_Box');
+    -unity-background-scale-mode: scale-to-fit;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.StatIcon {
+    flex-grow: 0;
+    width: 42%;
+    height: 60%;
+    left: 0;
+    top: 7%;
+    background-image: none;
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.StatLevel {
+    color: rgb(0, 0, 0);
+    font-size: 61px;
+    position: relative;
+    left: 11px;
+    top: -8px;
+}
+
+.StatNameProgress_Panel {
+    flex-grow: 0;
+    width: 56%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.StatName {
+    width: 100%;
+    height: 30%;
+    -unity-text-align: middle-left;
+    color: rgb(0, 0, 0);
+    -unity-font-style: bold;
+}
+
+.StatProgress {
+    flex-grow: 0;
+    width: 100%;
+    height: 30%;
+    background-color: rgb(255, 255, 255);
+    -unity-background-scale-mode: stretch-to-fill;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-top-width: 4px;
+    border-right-width: 4px;
+    border-bottom-width: 4px;
+    border-left-width: 4px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.StatProgressBar {
+    flex-grow: 0;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(255, 0, 0);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.AppOptions {
+    -unity-background-image-tint-color: rgb(0, 152, 5);
+    background-image: url('project://database/Assets/UI/UIAssets/MobileUI/Mobile_background.png?fileID=2800000&guid=57a223213fd313b4daa86e08fbecf0b3&type=3#Mobile_background');
+    width: 100%;
+    height: 100%;
+    translate: 0 -28%;
+    scale: 0 0;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.25s;
+    position: absolute;
+    display: none;
+    padding-top: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    flex-grow: 0;
+}
+
+.AppExit {
+    -unity-background-image-tint-color: rgb(219, 0, 13);
+    background-image: url('project://database/Assets/UI/UIAssets/MobileUI/Mobile_background.png?fileID=2800000&guid=57a223213fd313b4daa86e08fbecf0b3&type=3#Mobile_background');
+    width: 100%;
+    height: 100%;
+    translate: 30% -28%;
+    scale: 0 0;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.25s;
+    position: absolute;
+    display: none;
+    padding-top: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 0;
+}
+
+.ExitCenter_Panel {
+    flex-grow: 0;
+    width: 95%;
+    height: 35%;
+    align-items: flex-end;
+    background-color: rgb(115, 0, 0);
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding-top: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+}
+
+.ExitButton {
+    width: 100%;
+    height: 33%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    -unity-font-style: bold;
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    transition-duration: 0.1s;
+}
+
+.ExitButton:focus {
+    scale: 1.1 1.1;
+    transition-duration: 0.1s;
+}
+
+.AppBuffsPassives {
+    flex-grow: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding-top: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    background-image: url('project://database/Assets/UI/UIAssets/MobileUI/Mobile_background.png?fileID=2800000&guid=57a223213fd313b4daa86e08fbecf0b3&type=3#Mobile_background');
+    -unity-background-image-tint-color: rgb(86, 195, 181);
+    translate: -30% -14%;
+    align-items: center;
+    justify-content: center;
+    -unity-background-scale-mode: stretch-to-fill;
+    scale: 0 0;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in-out;
+    transition-property: all;
+    display: none;
+}
+
+.Tabs_Panel {
+    width: 95%;
+    height: 10%;
+    flex-direction: row;
+    align-items: center;
+    border-bottom-width: 2px;
+    border-bottom-color: rgb(0, 0, 0);
+    justify-content: flex-start;
+}
+
+.Tab {
+    height: 85%;
+    width: 35%;
+    color: rgb(0, 0, 0);
+    -unity-font-style: normal;
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-right: 1%;
+    font-size: 25px;
+    background-color: rgba(100, 100, 100, 0.5);
+}
+
+.Tab:focus {
+    scale: 1.1 1.1;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.Content_Panel {
+    width: 95%;
+    height: 80%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    border-bottom-color: rgb(0, 0, 0);
+    border-bottom-width: 2px;
+    overflow: hidden;
+}
+
+.Buffs_Panel {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 200%;
+    overflow: hidden;
+    position: absolute;
+    border-top-width: 4px;
+}
+
+.Buff {
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 10%;
+    align-self: auto;
+    justify-content: flex-start;
+    overflow: hidden;
+    visibility: visible;
+}
+
+.Buff_Icon {
+    width: 18%;
+    height: 50%;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-image: url('project://database/Assets/UI/UIAssets/DialogueUI/Stat_Box.png?fileID=2800000&guid=db9ae3446ea8c264ea4083cfe8a41499&type=3#Stat_Box');
+    -unity-background-scale-mode: scale-to-fit;
+    top: 15%;
+}
+
+.Buff_Timer {
+    width: 18%;
+    height: 20%;
+    font-size: 20px;
+    top: 15%;
+    color: rgb(0, 0, 0);
+}
+
+.Buff_Description {
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    height: 95%;
+    width: 82%;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    -unity-text-align: middle-left;
+    padding-top: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    overflow: hidden;
+}
+
+.Passives_Panel {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 200%;
+    overflow: hidden;
+    position: absolute;
+    border-top-width: 4px;
+}
+
+.Passive {
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 10%;
+    align-self: auto;
+    justify-content: flex-start;
+    overflow: hidden;
+    visibility: visible;
+}
+
+.Passive_Icon {
+    width: 18%;
+    height: 50%;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-image: url('project://database/Assets/UI/UIAssets/DialogueUI/Stat_Box.png?fileID=2800000&guid=db9ae3446ea8c264ea4083cfe8a41499&type=3#Stat_Box');
+    -unity-background-scale-mode: scale-to-fit;
+    top: 20%;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+}
+
+.Passive_Description {
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    height: 95%;
+    width: 82%;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    -unity-text-align: middle-left;
+    padding-top: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    overflow: hidden;
+}
+
+.AppEquipment {
+    flex-grow: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding-top: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    background-image: url('project://database/Assets/UI/UIAssets/MobileUI/Mobile_background.png?fileID=2800000&guid=57a223213fd313b4daa86e08fbecf0b3&type=3#Mobile_background');
+    -unity-background-image-tint-color: rgb(229, 200, 0);
+    translate: 0 -14%;
+    align-items: center;
+    justify-content: center;
+    -unity-background-scale-mode: stretch-to-fill;
+    scale: 0 0;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in-out;
+    transition-property: all;
+    display: none;
+}
+
+.Special_Panel {
+    flex-grow: 1;
+    position: absolute;
+    width: 35%;
+    height: 20%;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    top: 14.5%;
+    background-color: rgb(255, 238, 121);
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.Jacket_Panel {
+    flex-grow: 1;
+    position: absolute;
+    width: 35%;
+    height: 20%;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    left: auto;
+    top: 38%;
+    background-color: rgb(255, 238, 121);
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.Shirt_Panel {
+    flex-grow: 1;
+    position: absolute;
+    width: 35%;
+    height: 20%;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    top: 38%;
+    background-color: rgb(255, 238, 121);
+    right: 12%;
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.Pants_Panel {
+    flex-grow: 1;
+    position: absolute;
+    width: 35%;
+    height: 20%;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    left: auto;
+    background-color: rgb(255, 238, 121);
+    bottom: 20%;
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.Shoes_Panel {
+    flex-grow: 1;
+    position: absolute;
+    width: 35%;
+    height: 20%;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: rgb(255, 238, 121);
+    right: 12%;
+    bottom: 20%;
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.AppCollectibles {
+    -unity-background-image-tint-color: rgb(188, 88, 173);
+    background-image: url('project://database/Assets/UI/UIAssets/MobileUI/Mobile_background.png?fileID=2800000&guid=57a223213fd313b4daa86e08fbecf0b3&type=3#Mobile_background');
+    width: 100%;
+    height: 100%;
+    translate: 30% -14%;
+    scale: 0 0;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.25s;
+    position: absolute;
+    display: none;
+    padding-top: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    justify-content: center;
+    align-items: center;
+    -unity-background-scale-mode: stretch-to-fill;
+    flex-grow: 0;
+}
+
+.Collectibles_Panel {
+    width: 100%;
+    height: 200%;
+    position: absolute;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.Collectible {
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 30%;
+    height: 11.75%;
+    margin-top: 1.5%;
+    margin-right: 1.5%;
+    margin-bottom: 1.5%;
+    margin-left: 1.5%;
+    background-color: rgba(255, 255, 255, 0.2);
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.AppKeyItems {
+    flex-grow: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding-top: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    background-image: url('project://database/Assets/UI/UIAssets/MobileUI/Mobile_background.png?fileID=2800000&guid=57a223213fd313b4daa86e08fbecf0b3&type=3#Mobile_background');
+    -unity-background-image-tint-color: rgb(86, 195, 181);
+    translate: -30% -14%;
+    align-items: center;
+    justify-content: center;
+    -unity-background-scale-mode: stretch-to-fill;
+    scale: 0 0;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in-out;
+    transition-property: all;
+    display: none;
+}
+
+.ActiveApp {
+    translate: 0 0;
+    scale: 1 1;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.25s;
+    display: flex;
+    -unity-background-scale-mode: stretch-to-fill;
+}
+
+.HideMobile {
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in-out;
+    translate: 0 82%;
+}
+
+.HideDisplay {
+    display: none;
+}
+
+.NotCollectible {
+    background-image: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    -unity-background-image-tint-color: rgb(75, 75, 75);
+}
+
+.Tab_Selected {
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.Tab_BuffSelected {
+    background-color: rgba(255, 255, 255, 0.5);
+}

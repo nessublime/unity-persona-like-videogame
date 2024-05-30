@@ -1,0 +1,144 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/RotUI.uss?fileID=7433441132597879392&amp;guid=65a4c19ee4508d24e84ed577ba4376ef&amp;type=3#RotUI" />
+    <ui:VisualElement name="GlobalPanel" class="GlobalPanel">
+        <AspectRatioPanel name="ARP" class="ARP">
+            <ui:VisualElement name="InteractPanel" class="InteractPanel Hide">
+                <ui:VisualElement name="InteractBox" class="InteractBox">
+                    <ui:Label text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." display-tooltip-when-elided="true" name="InteractText" class="InteractText" />
+                </ui:VisualElement>
+                <ui:VisualElement name="OptionPanel" class="OptionPanel">
+                    <ui:Button text="Option 1" display-tooltip-when-elided="true" name="OptionButton" class="OptionButton" />
+                    <ui:Button text="Option 2" display-tooltip-when-elided="true" name="OptionButton" class="OptionButton" />
+                    <ui:Button text="Option 3" display-tooltip-when-elided="true" name="OptionButton" class="OptionButton" />
+                    <ui:Button text="Option 4" display-tooltip-when-elided="true" name="OptionButton" class="OptionButton" />
+                </ui:VisualElement>
+                <ui:VisualElement name="AlertPanel" class="AlertPanel">
+                    <ui:Label text="Cuidado RadiactivoMan!" display-tooltip-when-elided="true" name="AlertText" class="AlertText" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="DialogPanel" class="DialogPanel">
+                <ui:VisualElement name="AButton" focusable="true" class="AButton Hide" />
+                <ui:VisualElement name="PortraitPanelLB" class="PortraitPanelLB Hide">
+                    <ui:VisualElement name="Portrait" class="Portrait Hide" style="background-image: url(&apos;project://database/Assets/UI/UIAssets/DialogueUI/Character_Man_1.png?fileID=2800000&amp;guid=1c80e173b3c681049aca3af7166d9ea6&amp;type=3#Character_Man_1&apos;);" />
+                </ui:VisualElement>
+                <ui:VisualElement name="PortraitPanelRB" class="PortraitPanelRB Hide">
+                    <ui:VisualElement name="Portrait" class="Portrait Hide" style="background-image: url(&apos;project://database/Assets/UI/UIAssets/DialogueUI/Character_Fem_2.png?fileID=2800000&amp;guid=70d5012e50def2949af00b626f5263d8&amp;type=3#Character_Fem_2&apos;);" />
+                </ui:VisualElement>
+                <ui:VisualElement name="PortraitPanelR" class="PortraitPanelR Hide">
+                    <ui:VisualElement name="DialogBox" class="DialogBox Hide">
+                        <ui:Label text="Hola, que tal todo, solo queria escribir un poco por este recuadro de texto a ver que tal se ve y eso, parece que va de pinga la cosa sube y baja que flipas no veas manin." display-tooltip-when-elided="true" name="DialogText" enable-rich-text="true" class="DialogTextR" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="Portrait" class="Portrait Hide" style="background-image: url(&apos;project://database/Assets/UI/UIAssets/DialogueUI/Character_Man_2.png?fileID=2800000&amp;guid=c74e8ed9f6138ea4697fc754a221807f&amp;type=3#Character_Man_2&apos;);" />
+                    <ui:VisualElement name="ResponsePanel" class="ResponsePanel Hide">
+                        <ui:Button text="Aqui va el texto de la respuesta numero 1" display-tooltip-when-elided="true" name="ResponseButton1" class="ResponseButtonR Hide">
+                            <ui:VisualElement name="StatBox" class="StatBoxR Hide" style="-unity-background-image-tint-color: rgb(0, 255, 187);">
+                                <ui:VisualElement name="StatIcon" class="StatIcon" style="background-image: none;">
+                                    <ui:Label text="1" display-tooltip-when-elided="true" name="StatLevel" class="StatLevel" />
+                                </ui:VisualElement>
+                            </ui:VisualElement>
+                        </ui:Button>
+                        <ui:Button text="Aqui va el texto de la respuesta numero 2" display-tooltip-when-elided="true" name="ResponseButton2" class="ResponseButtonR Hide">
+                            <ui:VisualElement name="StatBox" class="StatBoxR Hide">
+                                <ui:VisualElement name="StatIcon" class="StatIcon" style="background-image: none;">
+                                    <ui:Label text="1" display-tooltip-when-elided="true" name="StatLevel" class="StatLevel" />
+                                </ui:VisualElement>
+                            </ui:VisualElement>
+                        </ui:Button>
+                        <ui:Button text="Aqui va el texto de la respuesta numero 3" display-tooltip-when-elided="true" name="ResponseButton3" class="ResponseButtonR Hide">
+                            <ui:VisualElement name="StatBox" class="StatBoxR Hide" style="-unity-background-image-tint-color: rgb(113, 113, 113);">
+                                <ui:VisualElement name="StatIcon" class="StatIcon" style="background-image: none;">
+                                    <ui:Label text="1" display-tooltip-when-elided="true" name="StatLevel" class="StatLevel" />
+                                </ui:VisualElement>
+                            </ui:VisualElement>
+                        </ui:Button>
+                        <ui:Button text="Aqui va el texto de la respuesta numero 4" display-tooltip-when-elided="true" name="ResponseButton4" class="ResponseButtonR Hide">
+                            <ui:VisualElement name="StatBox" class="StatBoxR Hide" style="-unity-background-image-tint-color: rgb(144, 0, 255);">
+                                <ui:VisualElement name="StatIcon" class="StatIcon" style="background-image: none;">
+                                    <ui:Label text="1" display-tooltip-when-elided="true" name="StatLevel" class="StatLevel" />
+                                </ui:VisualElement>
+                            </ui:VisualElement>
+                        </ui:Button>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="PortraitPanelL" class="PortraitPanelL Hide">
+                    <ui:VisualElement name="DialogBox" class="DialogBox Hide">
+                        <ui:Label text="Hola, que tal todo, solo queria escribir un poco por este recuadro de texto a ver que tal se ve y eso, parece que va de pinga la cosa sube y baja que flipas no veas manin." display-tooltip-when-elided="true" name="DialogText" class="DialogTextL" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="Portrait" class="Portrait Hide" style="background-image: url(&apos;project://database/Assets/UI/UIAssets/DialogueUI/Character_Fem_1.png?fileID=2800000&amp;guid=1cbd3909e3990324e9f4eca0ca191929&amp;type=3#Character_Fem_1&apos;);" />
+                    <ui:VisualElement name="ResponsePanel" class="ResponsePanel Hide">
+                        <ui:Button text="Aqui va el texto de la respuesta numero 1" display-tooltip-when-elided="true" name="ResponseButton1" class="ResponseButtonL Hide">
+                            <ui:VisualElement name="StatBox" class="StatBoxL Hide" style="-unity-background-image-tint-color: rgb(255, 0, 0);">
+                                <ui:VisualElement name="StatIcon" class="StatIcon" style="background-image: none;" />
+                                <ui:Label text="1" display-tooltip-when-elided="true" name="StatLevel" class="StatLevel" />
+                            </ui:VisualElement>
+                        </ui:Button>
+                        <ui:Button text="Aqui va el texto de la respuesta numero 2" display-tooltip-when-elided="true" name="ResponseButton2" class="ResponseButtonL Hide">
+                            <ui:VisualElement name="StatBox" class="StatBoxL Hide" style="-unity-background-image-tint-color: rgb(132, 20, 255);">
+                                <ui:VisualElement name="StatIcon" class="StatIcon" style="background-image: none;" />
+                                <ui:Label text="1" display-tooltip-when-elided="true" name="StatLevel" class="StatLevel" />
+                            </ui:VisualElement>
+                        </ui:Button>
+                        <ui:Button text="Aqui va el texto de la respuesta numero 3" display-tooltip-when-elided="true" name="ResponseButton3" class="ResponseButtonL Hide">
+                            <ui:VisualElement name="StatBox" class="StatBoxL Hide" style="-unity-background-image-tint-color: rgb(255, 193, 0);">
+                                <ui:VisualElement name="StatIcon" class="StatIcon" style="background-image: none;" />
+                                <ui:Label text="1" display-tooltip-when-elided="true" name="StatLevel" class="StatLevel" />
+                            </ui:VisualElement>
+                        </ui:Button>
+                        <ui:Button text="Aqui va el texto de la respuesta numero 4aaaaaaaaaaaaaaaaaaaaaaa" display-tooltip-when-elided="true" name="ResponseButton4" class="ResponseButtonL Hide">
+                            <ui:VisualElement name="StatBox" class="StatBoxL Hide" style="-unity-background-image-tint-color: rgb(0, 255, 187);">
+                                <ui:VisualElement name="StatIcon" class="StatIcon" style="background-image: none;" />
+                                <ui:Label text="1" display-tooltip-when-elided="true" name="StatLevel" class="StatLevel" />
+                            </ui:VisualElement>
+                        </ui:Button>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="PortraitPanelC" class="PortraitPanelC Hide">
+                    <ui:VisualElement name="Portrait" class="Portrait Hide" style="background-image: url(&apos;project://database/Assets/UI/UIAssets/DialogueUI/Character_Man_3_Centered.png?fileID=2800000&amp;guid=1b06a27dd8681994b90e789a1a1f35dc&amp;type=3#Character_Man_3_Centered&apos;);" />
+                    <ui:VisualElement name="DialogBox" class="DialogBoxC Hide">
+                        <ui:Label text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." display-tooltip-when-elided="true" name="DialogText" class="DialogTextC" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="ItemMenuPanel" class="ItemMenuPanel Hide" style="-unity-background-scale-mode: scale-and-crop;">
+                <ui:VisualElement name="ItemListPanel" class="ItemListPanel">
+                    <ui:Button text="Item1" display-tooltip-when-elided="true" name="ItemButton1" class="ItemButton" />
+                    <ui:Button text="Item2" display-tooltip-when-elided="true" name="ItemButton2" class="ItemButton" />
+                    <ui:Button text="Item3" display-tooltip-when-elided="true" name="ItemButton3" class="ItemButton" />
+                    <ui:Button text="Item4" display-tooltip-when-elided="true" name="ItemButton4" class="ItemButton" />
+                    <ui:Button text="Item5" display-tooltip-when-elided="true" name="ItemButton5" class="ItemButton" />
+                    <ui:Button text="Item6" display-tooltip-when-elided="true" name="ItemButton6" class="ItemButton" />
+                    <ui:Button text="Item7" display-tooltip-when-elided="true" name="ItemButton7" class="ItemButton" />
+                    <ui:Button text="Item8" display-tooltip-when-elided="true" name="ItemButton8" class="ItemButton" />
+                    <ui:Button text="Item9" display-tooltip-when-elided="true" name="ItemButton9" class="ItemButton" />
+                    <ui:Button text="Item10" display-tooltip-when-elided="true" name="ItemButton10" class="ItemButton" />
+                    <ui:Button text="Item11" display-tooltip-when-elided="true" name="ItemButton11" class="ItemButton" />
+                    <ui:Button text="Item12" display-tooltip-when-elided="true" name="ItemButton12" class="ItemButton" />
+                    <ui:Button text="Item13" display-tooltip-when-elided="true" name="ItemButton13" class="ItemButton" />
+                    <ui:Button text="Item14" display-tooltip-when-elided="true" name="ItemButton14" class="ItemButton" />
+                    <ui:Button text="Item15" display-tooltip-when-elided="true" name="ItemButton15" class="ItemButton" />
+                    <ui:Button text="Item16" display-tooltip-when-elided="true" name="ItemButton16" class="ItemButton" />
+                    <ui:Button text="Item17" display-tooltip-when-elided="true" name="ItemButton17" class="ItemButton" />
+                    <ui:Button text="Item18" display-tooltip-when-elided="true" name="ItemButton18" class="ItemButton" />
+                    <ui:Button text="Item19" display-tooltip-when-elided="true" name="ItemButton19" class="ItemButton" />
+                    <ui:Button text="Item20" display-tooltip-when-elided="true" name="ItemButton20" class="ItemButton" />
+                    <ui:Button text="Item21" display-tooltip-when-elided="true" name="ItemButton21" class="ItemButton" />
+                    <ui:Button text="Item22" display-tooltip-when-elided="true" name="ItemButton22" class="ItemButton" />
+                    <ui:Button text="Item23" display-tooltip-when-elided="true" name="ItemButton23" class="ItemButton" />
+                    <ui:Button text="Item24" display-tooltip-when-elided="true" name="ItemButton24" class="ItemButton" />
+                </ui:VisualElement>
+                <ui:VisualElement name="ItemDescriptionPanel" class="ItemDescriptionPanel">
+                    <ui:VisualElement name="ItemPortrait" class="ItemPortrait" />
+                    <ui:Label text="Texto descriptivo de pinga para que te quede bien claro que este item se usa como manda nuestro señor jezucristo" display-tooltip-when-elided="true" name="ItemDescription" class="ItemDescription" />
+                </ui:VisualElement>
+                <ui:VisualElement name="ItemTypesPanel" class="ItemTypesPanel">
+                    <ui:Button text="Type1" display-tooltip-when-elided="true" name="ItemTypeButton1" class="ItemTypeButton" />
+                    <ui:Button text="Type2" display-tooltip-when-elided="true" name="ItemTypeButton2" class="ItemTypeButton" />
+                    <ui:Button text="Type3" display-tooltip-when-elided="true" name="ItemTypeButton3" class="ItemTypeButton" />
+                    <ui:Button text="Type4" display-tooltip-when-elided="true" name="ItemTypeButton4" class="ItemTypeButton" />
+                    <ui:Button text="Type5" display-tooltip-when-elided="true" name="ItemTypeButton5" class="ItemTypeButton" />
+                    <ui:Button text="Type6" display-tooltip-when-elided="true" name="ItemTypeButton6" class="ItemTypeButton" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </AspectRatioPanel>
+    </ui:VisualElement>
+</ui:UXML>

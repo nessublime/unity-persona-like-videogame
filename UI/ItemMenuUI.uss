@@ -1,0 +1,158 @@
+VisualElement {
+}
+
+.GlobalPanel {
+    width: 100%;
+    height: 100%;
+    flex-direction: column-reverse;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.ARP {
+    align-items: center;
+}
+
+.unity-text-element {
+    font-size: 30px;
+    white-space: normal;
+    -unity-text-align: middle-left;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: rgb(255, 255, 255);
+}
+
+.ItemMenuPanel {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    flex-direction: column-reverse;
+    background-image: url('project://database/Assets/UI/UIAssets/DialogueUI/ItemBackground.png?fileID=2800000&guid=7f41d70a25266cd499f84970c7ceca29&type=3#ItemBackground');
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0.5);
+}
+
+.ItemTypesPanel {
+    left: -25%;
+    width: 45%;
+    height: 10%;
+    top: 3.5%;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.ItemTypeButton {
+    background-color: rgb(48, 48, 48);
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    width: 15%;
+    height: 66%;
+    -unity-text-align: middle-center;
+    background-image: none;
+}
+
+.ItemTypeButton:focus {
+    scale: 1.15 1.15;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    background-color: rgb(36, 36, 36);
+}
+
+.ItemListPanel {
+    left: -25%;
+    width: 45%;
+    height: 80.5%;
+    top: 6%;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.ItemButton {
+    background-color: rgb(101, 101, 101);
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    width: 15%;
+    height: 13.5%;
+    -unity-text-align: middle-center;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0.8%;
+    margin-bottom: 0.8%;
+}
+
+.ItemButton:focus {
+    scale: 1.15 1.15;
+    background-color: rgb(115, 115, 115);
+}
+
+.ItemDescriptionPanel {
+    left: 50%;
+    height: 69%;
+    position: absolute;
+    width: 47.5%;
+    align-items: center;
+    top: 15%;
+    background-color: rgba(0, 0, 0, 0.39);
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 75px;
+    border-bottom-right-radius: 75px;
+    border-left-width: 0;
+    border-right-width: 10px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+}
+
+.ItemPortrait {
+    width: 91%;
+    height: 45%;
+    top: 5%;
+    background-image: url('project://database/Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconconflictresolvedoverlay@2x.png?fileID=2800000&guid=309b1d5a294fd6c43ae9cf77656c1852&type=3#iconconflictresolvedoverlay@2x');
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.ItemDescription {
+    top: 5%;
+    width: 91%;
+    height: 45%;
+    -unity-text-align: upper-left;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 27px;
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-top-width: 5px;
+    justify-content: center;
+}
+
+.Hide {
+    display: none;
+    opacity: 0;
+}

@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: DialogSprites
+  m_EditorClassIdentifier: 
+  m_GroupName: DialogSprites
+  m_Data:
+    m_SerializedData: []
+  m_GUID: d2ac0a23c0c24da4c8070e5819e8040d
+  m_SerializeEntries:
+  - m_GUID: 4f137660627bd504a9bd3ebbaf1ca68a
+    m_Address: Assets/Graphics/Sprites/DialogSprites/Asier/Asier_Default
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SP_Characters
+    - CH_Asier
+    - CT_Default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 09d10b6ca58704142a20c869de4069e3
+    m_Address: Assets/Graphics/Sprites/DialogSprites/Asier/Asier_Piso
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SP_Characters
+    - CH_Asier
+    - CT_Piso
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a78c51dfa08397e40b20b2499ce3c4a2
+    m_Address: Assets/Graphics/Sprites/DialogSprites/Ness/Ness_Default
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SP_Characters
+    - CH_Ness
+    - CT_Default
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d39b068bce2103d4ea779ed7f09b3ed6
+    m_Address: Assets/Graphics/Sprites/DialogSprites/Ness/Ness_Piso
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SP_Characters
+    - CH_Ness
+    - CT_Piso
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: adf5575f30860b344a9dd0ca9bf664f9
+    m_Address: Assets/Graphics/Sprites/DialogSprites/Asier/Asier_Piso 1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - CT_Prueba
+    - SP_Characters
+    - CH_Asier
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 39e8c4e1526b8254db88fa6af1c84680, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 94f32530e8a425645831dd5298c6df4d, type: 2}
+    - {fileID: 11400000, guid: fd11dd67ebc84f7438c3c19f1d6400c7, type: 2}

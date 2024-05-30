@@ -1,0 +1,359 @@
+.GlobalPanel {
+    width: 100%;
+    height: 100%;
+    flex-direction: column-reverse;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.ARP {
+    align-items: center;
+}
+
+.Interact_Panel {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column-reverse;
+}
+
+.InteractText {
+    background-image: url('project://database/Assets/UI/UIAssets/DialogueUI/Interact_Box.png?fileID=2800000&guid=33face9c97636df4a854a645fa97fc37&type=3#Interact_Box');
+    width: 66.66%;
+    height: 24.45%;
+    -unity-background-scale-mode: scale-to-fit;
+    bottom: 2.22%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 2%;
+    padding-right: 10%;
+    padding-bottom: 2%;
+    padding-left: 10%;
+    color: rgb(255, 255, 255);
+    -unity-text-align: middle-center;
+    font-size: 30px;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+.Option_Panel {
+    width: 16.66%;
+    height: 33.33%;
+    left: 24.99%;
+    bottom: 4.44%;
+    flex-direction: column-reverse;
+}
+
+.Option {
+    flex-direction: row-reverse;
+    background-image: url('project://database/Assets/UI/UIAssets/DialogueUI/Option_Box.png?fileID=2800000&guid=f376a52e200582e4b978b638905ff8b7&type=3#Option_Box');
+    -unity-background-scale-mode: scale-to-fit;
+    align-items: flex-end;
+    width: 100%;
+    height: 25%;
+    -unity-background-image-tint-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    -unity-text-align: middle-center;
+    transition-duration: 0.25s;
+    padding-left: 20%;
+    padding-right: 10%;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    -unity-font-style: normal;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.Option:focus {
+    transform-origin: 150%;
+    scale: 1.1 1.1;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transition-duration: 0.25s;
+}
+
+.AButton {
+    background-image: url('project://database/Assets/UI/UIAssets/DialogueUI/Button_A.png?fileID=2800000&guid=ccfe949545f8ac543bddcb07cb70a1a2&type=3#Button_A');
+    -unity-background-scale-mode: scale-to-fit;
+    width: 4%;
+    height: 6.5%;
+    position: absolute;
+    left: 75%;
+    bottom: 5%;
+    transition-duration: 0.25s;
+}
+
+.AButton:focus {
+    transform-origin: center;
+    scale: 1.2 1.2;
+    transition-duration: 0.25s;
+}
+
+.ItemMenu_Panel {
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.AvailableItems_Panel {
+    width: 50%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.39);
+    align-items: center;
+    justify-content: center;
+}
+
+.Tabs_Panel {
+    width: 80%;
+    height: 15%;
+    border-bottom-width: 5px;
+    border-bottom-color: rgb(135, 135, 135);
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.Tab {
+    font-size: 25px;
+    -unity-text-align: middle-center;
+    color: rgb(255, 255, 255);
+    width: 17%;
+    height: 55%;
+    background-color: rgba(0, 0, 0, 0.39);
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    margin-top: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    border-top-width: 3px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in-out;
+    transition-property: all;
+}
+
+.Tab:focus {
+    background-color: rgba(255, 255, 255, 0.1);
+    scale: 1.1 1.1;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.1s;
+    transition-property: all;
+}
+
+.Content_Panel {
+    width: 80%;
+    height: 70%;
+    overflow: hidden;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.Items_Panel {
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 3%;
+}
+
+.Item {
+    width: 30%;
+    height: 45%;
+    margin-top: 1.5%;
+    margin-right: 1.5%;
+    margin-bottom: 1.5%;
+    margin-left: 1.5%;
+    border-top-width: 3px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.39);
+    -unity-background-scale-mode: scale-to-fit;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in-out;
+}
+
+.Item:focus {
+    background-color: rgba(255, 255, 255, 0.1);
+    scale: 1.05 1.05;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in-out;
+}
+
+.SmallItem {
+    width: 15%;
+    height: 22.5%;
+    margin-top: 0.75%;
+    margin-right: 0.75%;
+    margin-bottom: 0.75%;
+    margin-left: 0.75%;
+    border-top-width: 3px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.39);
+    -unity-background-scale-mode: scale-to-fit;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in-out;
+}
+
+.SmallItem:focus {
+    background-color: rgba(255, 255, 255, 0.1);
+    scale: 1.05 1.05;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in-out;
+}
+
+.EquippedItems_Panel {
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.EquippedItem {
+    width: 25%;
+    height: 30%;
+    border-top-width: 3px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.39);
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.SpecialItem {
+    position: absolute;
+    top: 10%;
+}
+
+.JacketItem {
+    position: absolute;
+    top: 28%;
+    left: 10%;
+}
+
+.ShirtItem {
+    position: absolute;
+    top: 28%;
+    right: 10%;
+}
+
+.PantsItem {
+    position: absolute;
+    left: 23%;
+    bottom: 10%;
+}
+
+.ShoesItem {
+    position: absolute;
+    bottom: 10%;
+    right: 23%;
+}
+
+.ItemDescription_Panel {
+    position: absolute;
+    width: 45%;
+    height: 75%;
+    right: 2.5%;
+    background-color: rgba(0, 0, 0, 0.78);
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    padding-top: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    align-items: center;
+    justify-content: center;
+}
+
+.ItemPortrait {
+    width: 100%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.ItemText {
+    font-size: 30px;
+    white-space: normal;
+    -unity-text-align: middle-left;
+    color: rgb(255, 255, 255);
+    text-overflow: ellipsis;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    border-top-width: 5px;
+    border-top-color: rgb(135, 135, 135);
+}
+
+.HideDisplay {
+    display: none;
+    opacity: 0;
+}

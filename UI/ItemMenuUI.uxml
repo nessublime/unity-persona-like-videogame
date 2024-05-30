@@ -1,0 +1,47 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/ItemMenuUI.uss?fileID=7433441132597879392&amp;guid=05a9237eb35e6e7448a75a733ef18bd6&amp;type=3#ItemMenuUI" />
+    <ui:VisualElement name="GlobalPanel" class="GlobalPanel">
+        <AspectRatioPanel name="ARP" class="ARP">
+            <ui:VisualElement name="ItemMenuPanel" class="ItemMenuPanel" style="-unity-background-scale-mode: scale-and-crop;">
+                <ui:VisualElement name="ItemListPanel" class="ItemListPanel">
+                    <ui:Button text="Item1" display-tooltip-when-elided="true" name="ItemButton1" class="ItemButton" />
+                    <ui:Button text="Item2" display-tooltip-when-elided="true" name="ItemButton2" class="ItemButton" />
+                    <ui:Button text="Item3" display-tooltip-when-elided="true" name="ItemButton3" class="ItemButton" />
+                    <ui:Button text="Item4" display-tooltip-when-elided="true" name="ItemButton4" class="ItemButton" />
+                    <ui:Button text="Item5" display-tooltip-when-elided="true" name="ItemButton5" class="ItemButton" />
+                    <ui:Button text="Item6" display-tooltip-when-elided="true" name="ItemButton6" class="ItemButton" />
+                    <ui:Button text="Item7" display-tooltip-when-elided="true" name="ItemButton7" class="ItemButton" />
+                    <ui:Button text="Item8" display-tooltip-when-elided="true" name="ItemButton8" class="ItemButton" />
+                    <ui:Button text="Item9" display-tooltip-when-elided="true" name="ItemButton9" class="ItemButton" />
+                    <ui:Button text="Item10" display-tooltip-when-elided="true" name="ItemButton10" class="ItemButton" />
+                    <ui:Button text="Item11" display-tooltip-when-elided="true" name="ItemButton11" class="ItemButton" />
+                    <ui:Button text="Item12" display-tooltip-when-elided="true" name="ItemButton12" class="ItemButton" />
+                    <ui:Button text="Item13" display-tooltip-when-elided="true" name="ItemButton13" class="ItemButton" />
+                    <ui:Button text="Item14" display-tooltip-when-elided="true" name="ItemButton14" class="ItemButton" />
+                    <ui:Button text="Item15" display-tooltip-when-elided="true" name="ItemButton15" class="ItemButton" />
+                    <ui:Button text="Item16" display-tooltip-when-elided="true" name="ItemButton16" class="ItemButton" />
+                    <ui:Button text="Item17" display-tooltip-when-elided="true" name="ItemButton17" class="ItemButton" />
+                    <ui:Button text="Item18" display-tooltip-when-elided="true" name="ItemButton18" class="ItemButton" />
+                    <ui:Button text="Item19" display-tooltip-when-elided="true" name="ItemButton19" class="ItemButton" />
+                    <ui:Button text="Item20" display-tooltip-when-elided="true" name="ItemButton20" class="ItemButton" />
+                    <ui:Button text="Item21" display-tooltip-when-elided="true" name="ItemButton21" class="ItemButton" />
+                    <ui:Button text="Item22" display-tooltip-when-elided="true" name="ItemButton22" class="ItemButton" />
+                    <ui:Button text="Item23" display-tooltip-when-elided="true" name="ItemButton23" class="ItemButton" />
+                    <ui:Button text="Item24" display-tooltip-when-elided="true" name="ItemButton24" class="ItemButton" />
+                </ui:VisualElement>
+                <ui:VisualElement name="ItemDescriptionPanel" class="ItemDescriptionPanel">
+                    <ui:VisualElement name="ItemPortrait" class="ItemPortrait" />
+                    <ui:Label text="Texto descriptivo de pinga para que te quede bien claro que este item se usa como manda nuestro señor jezucristo" display-tooltip-when-elided="true" name="ItemDescription" class="ItemDescription" />
+                </ui:VisualElement>
+                <ui:VisualElement name="ItemTypesPanel" class="ItemTypesPanel">
+                    <ui:Button text="Type1" display-tooltip-when-elided="true" name="ItemTypeButton1" class="ItemTypeButton" />
+                    <ui:Button text="Type2" display-tooltip-when-elided="true" name="ItemTypeButton2" class="ItemTypeButton" />
+                    <ui:Button text="Type3" display-tooltip-when-elided="true" name="ItemTypeButton3" class="ItemTypeButton" />
+                    <ui:Button text="Type4" display-tooltip-when-elided="true" name="ItemTypeButton4" class="ItemTypeButton" />
+                    <ui:Button text="Type5" display-tooltip-when-elided="true" name="ItemTypeButton5" class="ItemTypeButton" />
+                    <ui:Button text="Type6" display-tooltip-when-elided="true" name="ItemTypeButton6" class="ItemTypeButton" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </AspectRatioPanel>
+    </ui:VisualElement>
+</ui:UXML>

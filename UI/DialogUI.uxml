@@ -1,0 +1,86 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/RotUI.uss?fileID=7433441132597879392&amp;guid=65a4c19ee4508d24e84ed577ba4376ef&amp;type=3#RotUI" />
+    <ui:VisualElement name="GlobalPanel" class="GlobalPanel">
+        <AspectRatioPanel name="ARP" class="ARP">
+            <ui:VisualElement name="DialogPanel" class="DialogPanel">
+                <ui:VisualElement name="PortraitPanelLB" class="PortraitPanelLB Hide">
+                    <ui:VisualElement name="Portrait" class="Portrait Hide" style="background-image: url(&apos;project://database/Assets/UI/UIAssets/DialogueUI/Character_Man_1.png?fileID=2800000&amp;guid=1c80e173b3c681049aca3af7166d9ea6&amp;type=3#Character_Man_1&apos;);" />
+                </ui:VisualElement>
+                <ui:VisualElement name="PortraitPanelRB" class="PortraitPanelRB Hide">
+                    <ui:VisualElement name="Portrait" class="Portrait Hide" style="background-image: url(&apos;project://database/Assets/UI/UIAssets/DialogueUI/Character_Fem_2.png?fileID=2800000&amp;guid=70d5012e50def2949af00b626f5263d8&amp;type=3#Character_Fem_2&apos;);" />
+                </ui:VisualElement>
+                <ui:VisualElement name="PortraitPanelR" class="PortraitPanelR Hide">
+                    <ui:VisualElement name="DialogBox" class="DialogBox Hide">
+                        <ui:Label text="Hola, que tal todo, solo queria escribir un poco por este recuadro de texto a ver que tal se ve y eso, parece que va de pinga la cosa sube y baja que flipas no veas manin." display-tooltip-when-elided="true" name="DialogText" enable-rich-text="true" class="DialogTextR" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="Portrait" class="Portrait Hide" style="background-image: url(&apos;project://database/Assets/UI/UIAssets/DialogueUI/Character_Man_2.png?fileID=2800000&amp;guid=c74e8ed9f6138ea4697fc754a221807f&amp;type=3#Character_Man_2&apos;);" />
+                    <ui:VisualElement name="ResponsePanel" class="ResponsePanel Hide">
+                        <ui:Button text="Aqui va el texto de la respuesta numero 1" display-tooltip-when-elided="true" name="ResponseButton1" class="ResponseButtonR">
+                            <ui:VisualElement name="StatBox" class="StatBoxR" style="-unity-background-image-tint-color: rgb(0, 255, 187);">
+                                <ui:VisualElement name="StatIcon" class="StatIcon" style="background-image: url(&apos;project://database/Assets/UI/UIAssets/DialogueUI/Templanza_icon.png?fileID=2800000&amp;guid=441ed73c587a3d44e92332ce005fa301&amp;type=3#Templanza_icon&apos;);" />
+                                <ui:Label text="1" display-tooltip-when-elided="true" name="StatLevel" class="StatLevel" />
+                            </ui:VisualElement>
+                        </ui:Button>
+                        <ui:Button text="Aqui va el texto de la respuesta numero 2" display-tooltip-when-elided="true" name="ResponseButton2" class="ResponseButtonR">
+                            <ui:VisualElement name="StatBox" class="StatBoxR">
+                                <ui:VisualElement name="StatIcon" class="StatIcon" style="background-image: url(&apos;project://database/Assets/UI/UIAssets/DialogueUI/Lucidez_icon.png?fileID=2800000&amp;guid=9bbf52ff4d0abe74a95f248604783df7&amp;type=3#Lucidez_icon&apos;);" />
+                                <ui:Label text="1" display-tooltip-when-elided="true" name="StatLevel" class="StatLevel" />
+                            </ui:VisualElement>
+                        </ui:Button>
+                        <ui:Button text="Aqui va el texto de la respuesta numero 3" display-tooltip-when-elided="true" name="ResponseButton3" class="ResponseButtonR">
+                            <ui:VisualElement name="StatBox" class="StatBoxR" style="-unity-background-image-tint-color: rgb(113, 113, 113);">
+                                <ui:VisualElement name="StatIcon" class="StatIcon" style="background-image: url(&apos;project://database/Assets/UI/UIAssets/DialogueUI/Ardid_icon.png?fileID=2800000&amp;guid=cd8746eb4ff273641b691c1e3d739def&amp;type=3#Ardid_icon&apos;);" />
+                                <ui:Label text="1" display-tooltip-when-elided="true" name="StatLevel" class="StatLevel" />
+                            </ui:VisualElement>
+                        </ui:Button>
+                        <ui:Button text="Aqui va el texto de la respuesta numero 4" display-tooltip-when-elided="true" name="ResponseButton4" class="ResponseButtonR">
+                            <ui:VisualElement name="StatBox" class="StatBoxR" style="-unity-background-image-tint-color: rgb(255, 193, 0);">
+                                <ui:VisualElement name="StatIcon" class="StatIcon" style="background-image: url(&apos;project://database/Assets/UI/UIAssets/DialogueUI/Gracia_icon.png?fileID=2800000&amp;guid=2c35153ddb8a2aa47b6f818b98bcb186&amp;type=3#Gracia_icon&apos;);" />
+                                <ui:Label text="1" display-tooltip-when-elided="true" name="StatLevel" class="StatLevel" />
+                            </ui:VisualElement>
+                        </ui:Button>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="PortraitPanelL" class="PortraitPanelL Hide">
+                    <ui:VisualElement name="DialogBox" class="DialogBox Hide">
+                        <ui:Label text="Hola, que tal todo, solo queria escribir un poco por este recuadro de texto a ver que tal se ve y eso, parece que va de pinga la cosa sube y baja que flipas no veas manin." display-tooltip-when-elided="true" name="DialogText" class="DialogTextL" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="Portrait" class="Portrait Hide" style="background-image: url(&apos;project://database/Assets/UI/UIAssets/DialogueUI/Character_Fem_1.png?fileID=2800000&amp;guid=1cbd3909e3990324e9f4eca0ca191929&amp;type=3#Character_Fem_1&apos;);" />
+                    <ui:VisualElement name="ResponsePanel" class="ResponsePanel Hide">
+                        <ui:Button text="Aqui va el texto de la respuesta numero 1" display-tooltip-when-elided="true" name="ResponseButton1" class="ResponseButtonL">
+                            <ui:VisualElement name="StatBox" class="StatBoxL" style="-unity-background-image-tint-color: rgb(255, 0, 0);">
+                                <ui:VisualElement name="StatIcon" class="StatIcon" style="background-image: url(&apos;project://database/Assets/UI/UIAssets/DialogueUI/Valentia_icon.png?fileID=2800000&amp;guid=f404fc3f7a0de1e4586b38c94cbf3a59&amp;type=3#Valentia_icon&apos;);" />
+                                <ui:Label text="1" display-tooltip-when-elided="true" name="StatLevel" class="StatLevel" />
+                            </ui:VisualElement>
+                        </ui:Button>
+                        <ui:Button text="Aqui va el texto de la respuesta numero 2" display-tooltip-when-elided="true" name="ResponseButton2" class="ResponseButtonL">
+                            <ui:VisualElement name="StatBox" class="StatBoxL" style="-unity-background-image-tint-color: rgb(132, 20, 255);">
+                                <ui:VisualElement name="StatIcon" class="StatIcon" style="background-image: url(&apos;project://database/Assets/UI/UIAssets/DialogueUI/Erudici%C3%B3n_icon.png?fileID=2800000&amp;guid=6427aba4c3fd5554eb233aa291bf0d7b&amp;type=3#Erudición_icon&apos;);" />
+                                <ui:Label text="1" display-tooltip-when-elided="true" name="StatLevel" class="StatLevel" />
+                            </ui:VisualElement>
+                        </ui:Button>
+                        <ui:Button text="Aqui va el texto de la respuesta numero 3" display-tooltip-when-elided="true" name="ResponseButton3" class="ResponseButtonL">
+                            <ui:VisualElement name="StatBox" class="StatBoxL" style="-unity-background-image-tint-color: rgb(255, 193, 0);">
+                                <ui:VisualElement name="StatIcon" class="StatIcon" style="background-image: url(&apos;project://database/Assets/UI/UIAssets/DialogueUI/Gracia_icon.png?fileID=2800000&amp;guid=2c35153ddb8a2aa47b6f818b98bcb186&amp;type=3#Gracia_icon&apos;);" />
+                                <ui:Label text="1" display-tooltip-when-elided="true" name="StatLevel" class="StatLevel" />
+                            </ui:VisualElement>
+                        </ui:Button>
+                        <ui:Button text="Aqui va el texto de la respuesta numero 4aaaaaaaaaaaaaaaaaaaaaaa" display-tooltip-when-elided="true" name="ResponseButton4" class="ResponseButtonL">
+                            <ui:VisualElement name="StatBox" class="StatBoxL" style="-unity-background-image-tint-color: rgb(0, 255, 187);">
+                                <ui:VisualElement name="StatIcon" class="StatIcon" style="background-image: url(&apos;project://database/Assets/UI/UIAssets/DialogueUI/Templanza_icon.png?fileID=2800000&amp;guid=441ed73c587a3d44e92332ce005fa301&amp;type=3#Templanza_icon&apos;);" />
+                                <ui:Label text="1" display-tooltip-when-elided="true" name="StatLevel" class="StatLevel" />
+                            </ui:VisualElement>
+                        </ui:Button>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="PortraitPanelC" class="PortraitPanelC Hide">
+                    <ui:VisualElement name="Portrait" class="Portrait Hide" style="background-image: url(&apos;project://database/Assets/UI/UIAssets/DialogueUI/Character_Man_3_Centered.png?fileID=2800000&amp;guid=1b06a27dd8681994b90e789a1a1f35dc&amp;type=3#Character_Man_3_Centered&apos;);" />
+                    <ui:VisualElement name="DialogBox" class="DialogBoxC Hide">
+                        <ui:Label text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." display-tooltip-when-elided="true" name="DialogText" class="DialogTextC" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="AButton" focusable="true" class="AButton Hide" />
+            </ui:VisualElement>
+        </AspectRatioPanel>
+    </ui:VisualElement>
+</ui:UXML>

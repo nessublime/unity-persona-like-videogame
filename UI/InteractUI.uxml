@@ -1,0 +1,148 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/InteractUI.uss?fileID=7433441132597879392&amp;guid=d1c426664cb94a040a143f5e39c593a7&amp;type=3#InteractUI" />
+    <ui:VisualElement name="Global_Panel" class="GlobalPanel">
+        <AspectRatioPanel name="ARP" class="ARP">
+            <ui:VisualElement name="Interact_Panel" class="Interact_Panel HideDisplay">
+                <ui:Label tabindex="-1" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." parse-escape-sequences="true" display-tooltip-when-elided="true" name="InteractText" class="InteractText" />
+                <ui:VisualElement name="Option_Panel" class="Option_Panel">
+                    <ui:Label tabindex="-1" text="Option 1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Option1" focusable="true" class="Option" />
+                    <ui:Label tabindex="-1" text="Option 2" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Option2" focusable="true" class="Option" />
+                    <ui:Label tabindex="-1" text="Option 1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Option3" focusable="true" class="Option" />
+                    <ui:Label tabindex="-1" text="Option 4" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Option4" focusable="true" class="Option" />
+                </ui:VisualElement>
+                <ui:VisualElement name="AButton" focusable="true" class="AButton" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Equipment_ItemMenu_Panel" class="HideDisplay ItemMenu_Panel">
+                <ui:VisualElement name="AvailableItems_Panel" class="AvailableItems_Panel">
+                    <ui:VisualElement name="Tabs_Panel" class="Tabs_Panel">
+                        <ui:Label tabindex="-1" text="Specials" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Tab_Specials" focusable="true" class="Tab" />
+                        <ui:Label tabindex="-1" text="Jackets" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Tab_Jackets" focusable="true" class="Tab" />
+                        <ui:Label tabindex="-1" text="Shirts" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Tab_Shirts" focusable="true" class="Tab" />
+                        <ui:Label tabindex="-1" text="Pants" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Tab_Pants" focusable="true" class="Tab" />
+                        <ui:Label tabindex="-1" text="Shoes" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Tab_Shoes" focusable="true" class="Tab" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="Content_Panel" class="Content_Panel">
+                        <ui:VisualElement name="Special_Items_Panel" class="Items_Panel HideDisplay">
+                            <ui:VisualElement name="Item1" focusable="true" class="Item" />
+                            <ui:VisualElement name="Item2" focusable="true" class="Item" />
+                            <ui:VisualElement name="Item3" focusable="true" class="Item" />
+                            <ui:VisualElement name="Item4" focusable="true" class="Item" />
+                            <ui:VisualElement name="Item5" focusable="true" class="Item" />
+                            <ui:VisualElement name="Item6" focusable="true" class="Item" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="Jackets_Items_Panel" class="Items_Panel HideDisplay">
+                            <ui:VisualElement name="Item1" focusable="true" class="Item" />
+                            <ui:VisualElement name="Item2" focusable="true" class="Item" />
+                            <ui:VisualElement name="Item3" focusable="true" class="Item" />
+                            <ui:VisualElement name="Item4" focusable="true" class="Item" />
+                            <ui:VisualElement name="Item5" focusable="true" class="Item" />
+                            <ui:VisualElement name="Item6" focusable="true" class="Item" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="Shirts_Items_Panel" class="Items_Panel HideDisplay">
+                            <ui:VisualElement name="Item1" focusable="true" class="Item" />
+                            <ui:VisualElement name="Item2" focusable="true" class="Item" />
+                            <ui:VisualElement name="Item3" focusable="true" class="Item" />
+                            <ui:VisualElement name="Item4" focusable="true" class="Item" />
+                            <ui:VisualElement name="Item5" focusable="true" class="Item" />
+                            <ui:VisualElement name="Item6" focusable="true" class="Item" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="Pants_Items_Panel" class="Items_Panel HideDisplay">
+                            <ui:VisualElement name="Item1" focusable="true" class="Item" />
+                            <ui:VisualElement name="Item2" focusable="true" class="Item" />
+                            <ui:VisualElement name="Item3" focusable="true" class="Item" />
+                            <ui:VisualElement name="Item4" focusable="true" class="Item" />
+                            <ui:VisualElement name="Item5" focusable="true" class="Item" />
+                            <ui:VisualElement name="Item6" focusable="true" class="Item" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="Shoes_Items_Panel" class="Items_Panel">
+                            <ui:VisualElement name="Item1" focusable="true" class="Item" />
+                            <ui:VisualElement name="Item2" focusable="true" class="Item" />
+                            <ui:VisualElement name="Item3" focusable="true" class="Item" />
+                            <ui:VisualElement name="Item4" focusable="true" class="Item" />
+                            <ui:VisualElement name="Item5" focusable="true" class="Item" />
+                            <ui:VisualElement name="Item6" focusable="true" class="Item" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="EquippedItems_Panel" class="EquippedItems_Panel">
+                    <ui:VisualElement name="SpecialItem" class="EquippedItem SpecialItem" />
+                    <ui:VisualElement name="JacketItem" class="EquippedItem JacketItem" />
+                    <ui:VisualElement name="ShirtItem" class="EquippedItem ShirtItem" />
+                    <ui:VisualElement name="PantsItem" class="EquippedItem PantsItem" />
+                    <ui:VisualElement name="ShoesItem" class="EquippedItem ShoesItem" />
+                    <ui:VisualElement name="ImagenEstrella" style="background-image: url(&apos;project://database/Assets/UI/UIAssets/estrella5puntas.png?fileID=2800000&amp;guid=54fa0dfbeb323fd4e833b4a8e5c57abf&amp;type=3#estrella5puntas&apos;); -unity-background-scale-mode: scale-to-fit; width: 50%; height: 50%; position: absolute; left: 25%; top: 25%; -unity-background-image-tint-color: rgba(0, 0, 0, 0.13);" />
+                </ui:VisualElement>
+                <ui:VisualElement name="ItemDescription_Panel" class="ItemDescription_Panel HideDisplay">
+                    <ui:VisualElement name="ItemPortrait" class="ItemPortrait" />
+                    <ui:Label tabindex="-1" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit." parse-escape-sequences="true" display-tooltip-when-elided="true" name="ItemText" class="ItemText" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="Collectibles_ItemMenu_Panel" class="ItemMenu_Panel">
+                <ui:VisualElement name="AvailableItems_Panel" class="AvailableItems_Panel">
+                    <ui:VisualElement name="Tabs_Panel" class="Tabs_Panel">
+                        <ui:Label tabindex="-1" text="Bottles" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Tab_Bottles" focusable="true" class="Tab" />
+                        <ui:Label tabindex="-1" text="Clippers" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Tab_Clippers" focusable="true" class="Tab" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="Content_Panel" class="Content_Panel">
+                        <ui:VisualElement name="Bottles_Panel" class="Items_Panel HideDisplay">
+                            <ui:VisualElement name="SmallItem1" focusable="true" class="SmallItem" />
+                            <ui:VisualElement name="SmallItem2" focusable="true" class="SmallItem" />
+                            <ui:VisualElement name="SmallItem3" focusable="true" class="SmallItem" />
+                            <ui:VisualElement name="SmallItem4" focusable="true" class="SmallItem" />
+                            <ui:VisualElement name="SmallItem5" focusable="true" class="SmallItem" />
+                            <ui:VisualElement name="SmallItem6" focusable="true" class="SmallItem" />
+                            <ui:VisualElement name="SmallItem7" focusable="true" class="SmallItem" />
+                            <ui:VisualElement name="SmallItem8" focusable="true" class="SmallItem" />
+                            <ui:VisualElement name="SmallItem9" focusable="true" class="SmallItem" />
+                            <ui:VisualElement name="SmallItem10" focusable="true" class="SmallItem" />
+                            <ui:VisualElement name="SmallItem11" focusable="true" class="SmallItem" />
+                            <ui:VisualElement name="SmallItem12" focusable="true" class="SmallItem" />
+                            <ui:VisualElement name="SmallItem13" focusable="true" class="SmallItem" />
+                            <ui:VisualElement name="SmallItem14" focusable="true" class="SmallItem" />
+                            <ui:VisualElement name="SmallItem15" focusable="true" class="SmallItem" />
+                            <ui:VisualElement name="SmallItem16" focusable="true" class="SmallItem" />
+                            <ui:VisualElement name="SmallItem17" focusable="true" class="SmallItem" />
+                            <ui:VisualElement name="SmallItem18" focusable="true" class="SmallItem" />
+                            <ui:VisualElement name="SmallItem19" focusable="true" class="SmallItem" />
+                            <ui:VisualElement name="SmallItem20" focusable="true" class="SmallItem" />
+                            <ui:VisualElement name="SmallItem21" focusable="true" class="SmallItem" />
+                            <ui:VisualElement name="SmallItem22" focusable="true" class="SmallItem" />
+                            <ui:VisualElement name="SmallItem23" focusable="true" class="SmallItem" />
+                            <ui:VisualElement name="SmallItem24" focusable="true" class="SmallItem" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="Clippers_Panel" class="Items_Panel">
+                            <ui:VisualElement name="SmallItem1" focusable="true" class="SmallItem" />
+                            <ui:VisualElement name="SmallItem2" focusable="true" class="SmallItem" />
+                            <ui:VisualElement name="SmallItem3" focusable="true" class="SmallItem" />
+                            <ui:VisualElement name="SmallItem4" focusable="true" class="SmallItem" />
+                            <ui:VisualElement name="SmallItem5" focusable="true" class="SmallItem" />
+                            <ui:VisualElement name="SmallItem6" focusable="true" class="SmallItem" />
+                            <ui:VisualElement name="SmallItem7" focusable="true" class="SmallItem" />
+                            <ui:VisualElement name="SmallItem8" focusable="true" class="SmallItem" />
+                            <ui:VisualElement name="SmallItem9" focusable="true" class="SmallItem" />
+                            <ui:VisualElement name="SmallItem10" focusable="true" class="SmallItem" />
+                            <ui:VisualElement name="SmallItem11" focusable="true" class="SmallItem" />
+                            <ui:VisualElement name="SmallItem12" focusable="true" class="SmallItem" />
+                            <ui:VisualElement name="SmallItem13" focusable="true" class="SmallItem" />
+                            <ui:VisualElement name="SmallItem14" focusable="true" class="SmallItem" />
+                            <ui:VisualElement name="SmallItem15" focusable="true" class="SmallItem" />
+                            <ui:VisualElement name="SmallItem16" focusable="true" class="SmallItem" />
+                            <ui:VisualElement name="SmallItem17" focusable="true" class="SmallItem" />
+                            <ui:VisualElement name="SmallItem18" focusable="true" class="SmallItem" />
+                            <ui:VisualElement name="SmallItem19" focusable="true" class="SmallItem" />
+                            <ui:VisualElement name="SmallItem20" focusable="true" class="SmallItem" />
+                            <ui:VisualElement name="SmallItem21" focusable="true" class="SmallItem" />
+                            <ui:VisualElement name="SmallItem22" focusable="true" class="SmallItem" />
+                            <ui:VisualElement name="SmallItem23" focusable="true" class="SmallItem" />
+                            <ui:VisualElement name="SmallItem24" focusable="true" class="SmallItem" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="ItemDescription_Panel" class="ItemDescription_Panel">
+                    <ui:VisualElement name="ItemPortrait" class="ItemPortrait" />
+                    <ui:Label tabindex="-1" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit." parse-escape-sequences="true" display-tooltip-when-elided="true" name="ItemText" class="ItemText" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </AspectRatioPanel>
+    </ui:VisualElement>
+</ui:UXML>

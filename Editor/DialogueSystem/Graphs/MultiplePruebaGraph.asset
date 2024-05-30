@@ -1,0 +1,375 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0202a3095b7477a4091d56344f0af6b3, type: 3}
+  m_Name: MultiplePruebaGraph
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: MultiplePrueba
+  <Groups>k__BackingField: []
+  <Nodes>k__BackingField:
+  - <ID>k__BackingField: 5db50ca9-34f1-4507-b96f-cd241244d141
+    <GroupID>k__BackingField: 
+    <Name>k__BackingField: MasterNode
+    <DialogueType>k__BackingField: 5
+    <Position>k__BackingField: {x: -19, y: 82}
+    <Choices>k__BackingField:
+    - <NodeID>k__BackingField: 07138290-f580-41d1-ab2f-f129c7b3b06f
+      <Text>k__BackingField: 
+      <Stat>k__BackingField: 
+      <StatValue>k__BackingField: 
+    <Text>k__BackingField: 
+    <Stat>k__BackingField: 
+    <StatEXP>k__BackingField: 
+    <Expression>k__BackingField: 
+    <Conversant>k__BackingField: 
+    <Positions>k__BackingField:
+    - '  --  '
+    - '  --  '
+    - '  --  '
+    - '  --  '
+    - '  --  '
+    <Conversants>k__BackingField:
+    - Ness_Default
+    - Asier_Default
+    <Priority>k__BackingField: 
+  - <ID>k__BackingField: 8db50a04-2809-4690-84a1-fcec21a13c89
+    <GroupID>k__BackingField: 
+    <Name>k__BackingField: M1
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 367, y: 34}
+    <Choices>k__BackingField:
+    - <NodeID>k__BackingField: 8eed2d7a-f77a-4d5f-83da-561f8c0a99c3
+      <Text>k__BackingField: Esta bastante decente
+      <Stat>k__BackingField: /
+      <StatValue>k__BackingField: /
+    - <NodeID>k__BackingField: 9878793d-09d5-4a64-be87-2f687cee5c3e
+      <Text>k__BackingField: Deberiamos mejorarlo bastante aun
+      <Stat>k__BackingField: /
+      <StatValue>k__BackingField: /
+    - <NodeID>k__BackingField: 415cda49-5458-4246-bb53-45e7160567ce
+      <Text>k__BackingField: '[No decir nada]'
+      <Stat>k__BackingField: /
+      <StatValue>k__BackingField: /
+    - <NodeID>k__BackingField: 
+      <Text>k__BackingField: 
+      <Stat>k__BackingField: '-'
+      <StatValue>k__BackingField: '-'
+    <Text>k__BackingField: Esta es una prueba de dialogos MultiChoice! Que opinas
+      de su funcionamiento?
+    <Stat>k__BackingField: 
+    <StatEXP>k__BackingField: 
+    <Expression>k__BackingField: Happy
+    <Conversant>k__BackingField: Asier_Default
+    <Positions>k__BackingField: []
+    <Conversants>k__BackingField: []
+    <Priority>k__BackingField: 
+  - <ID>k__BackingField: 9878793d-09d5-4a64-be87-2f687cee5c3e
+    <GroupID>k__BackingField: 
+    <Name>k__BackingField: S2
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1042, y: 85}
+    <Choices>k__BackingField:
+    - <NodeID>k__BackingField: edd71340-19fd-446c-b226-2b520db8d8fe
+      <Text>k__BackingField: 
+      <Stat>k__BackingField: 
+      <StatValue>k__BackingField: 
+    <Text>k__BackingField: No se man...creo que aun esta muy verde...
+    <Stat>k__BackingField: 
+    <StatEXP>k__BackingField: 
+    <Expression>k__BackingField: Sad
+    <Conversant>k__BackingField: Ness_Default
+    <Positions>k__BackingField: []
+    <Conversants>k__BackingField: []
+    <Priority>k__BackingField: 
+  - <ID>k__BackingField: 415cda49-5458-4246-bb53-45e7160567ce
+    <GroupID>k__BackingField: 
+    <Name>k__BackingField: M2
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 1045, y: 321}
+    <Choices>k__BackingField:
+    - <NodeID>k__BackingField: 29bea166-813c-45cf-8162-7772f874a07e
+      <Text>k__BackingField: Quiero hacer la prueba de Stats en dialogo
+      <Stat>k__BackingField: /
+      <StatValue>k__BackingField: /
+    - <NodeID>k__BackingField: 2c10f20d-2602-4265-a7f1-49ae1b07233e
+      <Text>k__BackingField: Quiero probar el Carisma y la Perspicacia
+      <Stat>k__BackingField: /
+      <StatValue>k__BackingField: /
+    - <NodeID>k__BackingField: 
+      <Text>k__BackingField: '[Salir de la conversacion]'
+      <Stat>k__BackingField: /
+      <StatValue>k__BackingField: /
+    - <NodeID>k__BackingField: 
+      <Text>k__BackingField: 
+      <Stat>k__BackingField: '-'
+      <StatValue>k__BackingField: '-'
+    <Text>k__BackingField: No quieres opinar? Menudo gil
+    <Stat>k__BackingField: 
+    <StatEXP>k__BackingField: 
+    <Expression>k__BackingField: Angry
+    <Conversant>k__BackingField: Asier_Default
+    <Positions>k__BackingField: []
+    <Conversants>k__BackingField: []
+    <Priority>k__BackingField: 
+  - <ID>k__BackingField: 8eed2d7a-f77a-4d5f-83da-561f8c0a99c3
+    <GroupID>k__BackingField: 
+    <Name>k__BackingField: S1
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1047, y: -154}
+    <Choices>k__BackingField:
+    - <NodeID>k__BackingField: edd71340-19fd-446c-b226-2b520db8d8fe
+      <Text>k__BackingField: 
+      <Stat>k__BackingField: 
+      <StatValue>k__BackingField: 
+    <Text>k__BackingField: Nos esta quedando de putisima madre!
+    <Stat>k__BackingField: 
+    <StatEXP>k__BackingField: 
+    <Expression>k__BackingField: Happy
+    <Conversant>k__BackingField: Ness_Default
+    <Positions>k__BackingField: []
+    <Conversants>k__BackingField: []
+    <Priority>k__BackingField: 
+  - <ID>k__BackingField: 29bea166-813c-45cf-8162-7772f874a07e
+    <GroupID>k__BackingField: 
+    <Name>k__BackingField: S3
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2399, y: -58}
+    <Choices>k__BackingField:
+    - <NodeID>k__BackingField: f395579f-60e5-4779-842d-418bc145d5e1
+      <Text>k__BackingField: 
+      <Stat>k__BackingField: 
+      <StatValue>k__BackingField: 
+    <Text>k__BackingField: Me gustaria realizar la prueba de dialogos multiples utilizando
+      Stats
+    <Stat>k__BackingField: 
+    <StatEXP>k__BackingField: 
+    <Expression>k__BackingField: Default
+    <Conversant>k__BackingField: Ness_Default
+    <Positions>k__BackingField: []
+    <Conversants>k__BackingField: []
+    <Priority>k__BackingField: 
+  - <ID>k__BackingField: f395579f-60e5-4779-842d-418bc145d5e1
+    <GroupID>k__BackingField: 
+    <Name>k__BackingField: D3
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 3076, y: -63}
+    <Choices>k__BackingField:
+    - <NodeID>k__BackingField: 37b05f69-6dfe-455b-b695-199fd86279cc
+      <Text>k__BackingField: Soy el mas valiente!
+      <Stat>k__BackingField: V
+      <StatValue>k__BackingField: 0
+    - <NodeID>k__BackingField: 524a3b25-9d63-4b44-910f-b1d50950c729
+      <Text>k__BackingField: Mi inteligencia es inigualable
+      <Stat>k__BackingField: E
+      <StatValue>k__BackingField: 0
+    - <NodeID>k__BackingField: 325707c3-e88f-446f-888c-92b8e121da67
+      <Text>k__BackingField: Soy capaz de percbirlo todo
+      <Stat>k__BackingField: L
+      <StatValue>k__BackingField: 0
+    - <NodeID>k__BackingField: ebb9165b-f4cb-4d30-b822-349f1459348a
+      <Text>k__BackingField: Mi templanza es digna de un monje tibetano
+      <Stat>k__BackingField: T
+      <StatValue>k__BackingField: 0
+    <Text>k__BackingField: Perfecto! Demuestrame lo que sabes hacer!
+    <Stat>k__BackingField: 
+    <StatEXP>k__BackingField: 
+    <Expression>k__BackingField: Happy
+    <Conversant>k__BackingField: Asier_Default
+    <Positions>k__BackingField: []
+    <Conversants>k__BackingField: []
+    <Priority>k__BackingField: 
+  - <ID>k__BackingField: edd71340-19fd-446c-b226-2b520db8d8fe
+    <GroupID>k__BackingField: 
+    <Name>k__BackingField: D2
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 1712, y: -66}
+    <Choices>k__BackingField:
+    - <NodeID>k__BackingField: 29bea166-813c-45cf-8162-7772f874a07e
+      <Text>k__BackingField: Quiero hacer la prueba de Stats
+      <Stat>k__BackingField: /
+      <StatValue>k__BackingField: /
+    - <NodeID>k__BackingField: 2c10f20d-2602-4265-a7f1-49ae1b07233e
+      <Text>k__BackingField: Quiero probar el Carisma y la Perspicacia
+      <Stat>k__BackingField: /
+      <StatValue>k__BackingField: /
+    - <NodeID>k__BackingField: 
+      <Text>k__BackingField: '[Salir de la conversacion]'
+      <Stat>k__BackingField: /
+      <StatValue>k__BackingField: /
+    - <NodeID>k__BackingField: 
+      <Text>k__BackingField: 
+      <Stat>k__BackingField: '-'
+      <StatValue>k__BackingField: '-'
+    <Text>k__BackingField: Quieres realizar alguna prueba mas?
+    <Stat>k__BackingField: 
+    <StatEXP>k__BackingField: 
+    <Expression>k__BackingField: Default
+    <Conversant>k__BackingField: Asier_Default
+    <Positions>k__BackingField: []
+    <Conversants>k__BackingField: []
+    <Priority>k__BackingField: 
+  - <ID>k__BackingField: 2c10f20d-2602-4265-a7f1-49ae1b07233e
+    <GroupID>k__BackingField: 
+    <Name>k__BackingField: S4
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1712, y: 322}
+    <Choices>k__BackingField:
+    - <NodeID>k__BackingField: e62441df-e29f-4155-9218-4e7444a30474
+      <Text>k__BackingField: 
+      <Stat>k__BackingField: 
+      <StatValue>k__BackingField: 
+    <Text>k__BackingField: Quiero comprobar mis aptitudes sociales!
+    <Stat>k__BackingField: 
+    <StatEXP>k__BackingField: 
+    <Expression>k__BackingField: Happy
+    <Conversant>k__BackingField: Ness_Default
+    <Positions>k__BackingField: []
+    <Conversants>k__BackingField: []
+    <Priority>k__BackingField: 
+  - <ID>k__BackingField: e62441df-e29f-4155-9218-4e7444a30474
+    <GroupID>k__BackingField: 
+    <Name>k__BackingField: DialogueName
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 2414, y: 271}
+    <Choices>k__BackingField:
+    - <NodeID>k__BackingField: 
+      <Text>k__BackingField: Ultimamente te veo de puta madre man
+      <Stat>k__BackingField: G
+      <StatValue>k__BackingField: 0
+    - <NodeID>k__BackingField: 
+      <Text>k__BackingField: Eres el mayor maquina de todos tio!
+      <Stat>k__BackingField: G
+      <StatValue>k__BackingField: 0
+    - <NodeID>k__BackingField: 
+      <Text>k__BackingField: Quien?
+      <Stat>k__BackingField: A
+      <StatValue>k__BackingField: 0
+    - <NodeID>k__BackingField: 
+      <Text>k__BackingField: Conoces a Alberto?
+      <Stat>k__BackingField: A
+      <StatValue>k__BackingField: 0
+    <Text>k__BackingField: Perfecto! Empleate al maximo!
+    <Stat>k__BackingField: 
+    <StatEXP>k__BackingField: 
+    <Expression>k__BackingField: Happy
+    <Conversant>k__BackingField: Asier_Default
+    <Positions>k__BackingField: []
+    <Conversants>k__BackingField: []
+    <Priority>k__BackingField: 
+  - <ID>k__BackingField: 325707c3-e88f-446f-888c-92b8e121da67
+    <GroupID>k__BackingField: 
+    <Name>k__BackingField: S7
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 3756, y: 159}
+    <Choices>k__BackingField:
+    - <NodeID>k__BackingField: 
+      <Text>k__BackingField: 
+      <Stat>k__BackingField: 
+      <StatValue>k__BackingField: 
+    <Text>k__BackingField: A veces dices cosas rarisimas
+    <Stat>k__BackingField: 
+    <StatEXP>k__BackingField: 
+    <Expression>k__BackingField: Default
+    <Conversant>k__BackingField: Asier_Default
+    <Positions>k__BackingField: []
+    <Conversants>k__BackingField: []
+    <Priority>k__BackingField: 
+  - <ID>k__BackingField: ebb9165b-f4cb-4d30-b822-349f1459348a
+    <GroupID>k__BackingField: 
+    <Name>k__BackingField: S8
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 3758, y: 358}
+    <Choices>k__BackingField:
+    - <NodeID>k__BackingField: 
+      <Text>k__BackingField: 
+      <Stat>k__BackingField: 
+      <StatValue>k__BackingField: 
+    <Text>k__BackingField: Jajaja! Este manin...
+    <Stat>k__BackingField: 
+    <StatEXP>k__BackingField: 
+    <Expression>k__BackingField: Happy
+    <Conversant>k__BackingField: Asier_Default
+    <Positions>k__BackingField: []
+    <Conversants>k__BackingField: []
+    <Priority>k__BackingField: 
+  - <ID>k__BackingField: 37b05f69-6dfe-455b-b695-199fd86279cc
+    <GroupID>k__BackingField: 
+    <Name>k__BackingField: S5
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 3747, y: -250}
+    <Choices>k__BackingField:
+    - <NodeID>k__BackingField: 
+      <Text>k__BackingField: 
+      <Stat>k__BackingField: 
+      <StatValue>k__BackingField: 
+    <Text>k__BackingField: Menudo flipado!
+    <Stat>k__BackingField: 
+    <StatEXP>k__BackingField: 
+    <Expression>k__BackingField: Angry
+    <Conversant>k__BackingField: Asier_Default
+    <Positions>k__BackingField: []
+    <Conversants>k__BackingField: []
+    <Priority>k__BackingField: 
+  - <ID>k__BackingField: 524a3b25-9d63-4b44-910f-b1d50950c729
+    <GroupID>k__BackingField: 
+    <Name>k__BackingField: S6
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 3752, y: -46}
+    <Choices>k__BackingField:
+    - <NodeID>k__BackingField: 
+      <Text>k__BackingField: 
+      <Stat>k__BackingField: 
+      <StatValue>k__BackingField: 
+    <Text>k__BackingField: Insinuas que yo soy un gil?
+    <Stat>k__BackingField: 
+    <StatEXP>k__BackingField: 
+    <Expression>k__BackingField: Sad
+    <Conversant>k__BackingField: Asier_Default
+    <Positions>k__BackingField: []
+    <Conversants>k__BackingField: []
+    <Priority>k__BackingField: 
+  - <ID>k__BackingField: 07138290-f580-41d1-ab2f-f129c7b3b06f
+    <GroupID>k__BackingField: 
+    <Name>k__BackingField: S
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 322, y: 408}
+    <Choices>k__BackingField:
+    - <NodeID>k__BackingField: 8db50a04-2809-4690-84a1-fcec21a13c89
+      <Text>k__BackingField: Next Dialogue
+      <Stat>k__BackingField: 
+      <StatValue>k__BackingField: 
+    <Text>k__BackingField: A
+    <Stat>k__BackingField: 
+    <StatEXP>k__BackingField: 
+    <Expression>k__BackingField: Angry
+    <Conversant>k__BackingField: Ness_Default
+    <Positions>k__BackingField: []
+    <Conversants>k__BackingField: []
+    <Priority>k__BackingField: 
+  <OldGroupNames>k__BackingField: []
+  <OldUngroupedNodeNames>k__BackingField:
+  - MasterNode
+  - M1
+  - S2
+  - M2
+  - S1
+  - S3
+  - D3
+  - D2
+  - S4
+  - DialogueName
+  - S7
+  - S8
+  - S5
+  - S6
+  - S
+  <OldGroupedNodeNames>k__BackingField:
+    list: []

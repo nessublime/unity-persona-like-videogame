@@ -1,0 +1,334 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/MobileUI.uss?fileID=7433441132597879392&amp;guid=02a5298556563fb47ad4c5c757b052a3&amp;type=3#MobileUI" />
+    <ui:VisualElement name="Global_Panel" class="Global_Panel">
+        <AspectRatioPanel name="ARP" class="ARP" style="top: 0; align-self: stretch; right: -2px; left: 2px; bottom: 0;">
+            <ui:VisualElement name="Mobile_Panel" class="Mobile_Panel HideMobile" style="display: flex; visibility: visible; -unity-background-scale-mode: scale-to-fit; background-image: url(&apos;project://database/Assets/UI/UIAssets/MobileUI/Mobile_border.png?fileID=2800000&amp;guid=a294db9fdd890e84dae3d2197959b4ec&amp;type=3#Mobile_border&apos;);">
+                <ui:VisualElement name="Screen_Panel" class="Screen_Panel" style="-unity-background-scale-mode: stretch-to-fill; background-image: url(&apos;project://database/Assets/UI/UIAssets/MobileUI/Mobile_background_1.png?fileID=2800000&amp;guid=c5958c0e0f766e24583e7ca9c5b8733b&amp;type=3#Mobile_background_1&apos;);">
+                    <ui:VisualElement name="Top_Panel" class="Top_Panel">
+                        <ui:VisualElement name="State_Panel" class="State_Panel">
+                            <ui:VisualElement name="Notifications_Panel" class="Notifications_Panel">
+                                <ui:VisualElement name="Notification1" class="Notification" style="background-image: url(&apos;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=4154780841294389669&amp;guid=2d1208232ea4e2540a1e5ebfde5cc813&amp;type=3#arrow-down&apos;);" />
+                                <ui:VisualElement name="Notification1" class="Notification" style="background-image: none;" />
+                                <ui:VisualElement name="Notification1" class="Notification" style="background-image: none;" />
+                                <ui:VisualElement name="Notification1" class="Notification" style="background-image: none;" />
+                                <ui:VisualElement name="Notification1" class="Notification" style="background-image: none;" />
+                                <ui:VisualElement name="Notification1" class="Notification" style="background-image: url(&apos;project://database/Assets/Graphics/Sprites/BuffSprites/descarga.png?fileID=21300000&amp;guid=419326d8441c80c45ad5c5c7f62c16be&amp;type=3#descarga&apos;);" />
+                            </ui:VisualElement>
+                            <ui:VisualElement name="Battery_Panel" class="Battery_Panel">
+                                <ui:VisualElement name="BatteryBorder" class="BatteryBorder">
+                                    <ui:VisualElement name="BatteryProgress" class="BatteryProgress">
+                                        <ui:VisualElement name="BatteryProgressBar" class="BatteryProgressBar" style="width: 60%;" />
+                                    </ui:VisualElement>
+                                    <ui:Label tabindex="-1" text="3" parse-escape-sequences="true" display-tooltip-when-elided="true" name="BatteryLevel" class="BatteryLevel" />
+                                </ui:VisualElement>
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                        <ui:VisualElement name="TimeInfo_Panel" class="TimeInfo_Panel">
+                            <ui:Label tabindex="-1" text="9:30&#10;Home" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Label" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="Mid_Panel" class="Mid_Panel">
+                        <ui:VisualElement name="Apps_Panel" class="Apps_Panel">
+                            <ui:VisualElement name="L_Apps_Panel" class="LMR_Apps_Panel HideDisplay">
+                                <ui:VisualElement name="App1" focusable="true" class="App" />
+                                <ui:VisualElement name="App2" focusable="true" class="App" />
+                                <ui:VisualElement name="App3" focusable="true" class="App" />
+                                <ui:VisualElement name="App4" focusable="true" class="App" />
+                                <ui:VisualElement name="App5" focusable="true" class="App" />
+                                <ui:VisualElement name="App6" focusable="true" class="App" />
+                                <ui:VisualElement name="App7" focusable="true" class="App" />
+                            </ui:VisualElement>
+                            <ui:VisualElement name="M_Apps_Panel" class="LMR_Apps_Panel">
+                                <ui:VisualElement name="App1" focusable="true" class="App" style="-unity-background-image-tint-color: rgb(113, 113, 113);" />
+                                <ui:VisualElement name="App2" focusable="true" class="App" style="-unity-background-image-tint-color: rgb(0, 152, 5);" />
+                                <ui:VisualElement name="App3" focusable="true" class="App" style="-unity-background-image-tint-color: rgb(219, 0, 13);" />
+                                <ui:VisualElement name="App4" focusable="true" class="App" style="-unity-background-image-tint-color: rgb(85, 195, 180);" />
+                                <ui:VisualElement name="App5" focusable="true" class="App" style="-unity-background-image-tint-color: rgb(212, 192, 53);" />
+                                <ui:VisualElement name="App6" focusable="true" class="App" style="-unity-background-image-tint-color: rgb(188, 88, 173);" />
+                                <ui:VisualElement name="App7" focusable="true" class="App" style="-unity-background-image-tint-color: rgb(192, 115, 39);" />
+                                <ui:VisualElement name="App8" focusable="true" class="App" />
+                                <ui:VisualElement name="App9" focusable="true" class="App" />
+                                <ui:VisualElement name="App10" focusable="true" class="App" />
+                                <ui:VisualElement name="App11" focusable="true" class="App" style="-unity-background-image-tint-color: rgb(0, 15, 197);" />
+                                <ui:VisualElement name="App12" focusable="true" class="App" />
+                            </ui:VisualElement>
+                            <ui:VisualElement name="R_Apps_Panel" class="LMR_Apps_Panel HideDisplay">
+                                <ui:VisualElement name="App1" focusable="true" class="App" />
+                                <ui:VisualElement name="App2" focusable="true" class="App" />
+                                <ui:VisualElement name="App3" focusable="true" class="App" />
+                                <ui:VisualElement name="App4" focusable="true" class="App" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                        <ui:VisualElement name="PointIndex_Panel" class="PointIndex_Panel">
+                            <ui:VisualElement name="L_PointIndex" class="PointIndex" />
+                            <ui:VisualElement name="M_PointIndex" class="PointIndex active_PointIndex" />
+                            <ui:VisualElement name="R_PointIndex" class="PointIndex" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="MainApps_Panel" class="MainApps_Panel">
+                            <ui:VisualElement name="MainApp1" focusable="true" class="MainApp" />
+                            <ui:VisualElement name="MainApp2" focusable="true" class="MainApp" />
+                            <ui:VisualElement name="MainApp3" focusable="true" class="MainApp" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="OppenedApps_Panel" class="OppenedApps_Panel">
+                        <ui:VisualElement name="AppStats" class="AppStats">
+                            <ui:VisualElement name="Stat1_Panel" class="Stat_Panel">
+                                <ui:VisualElement name="StatIcon_Panel" class="StatIcon_Panel" style="-unity-background-image-tint-color: rgb(135, 0, 255);">
+                                    <ui:VisualElement name="StatIcon" class="StatIcon" style="background-image: url(&apos;project://database/Assets/UI/UIAssets/DialogueUI/Erudici%C3%B3n_icon.png?fileID=2800000&amp;guid=6427aba4c3fd5554eb233aa291bf0d7b&amp;type=3#Erudición_icon&apos;);" />
+                                    <ui:Label tabindex="-1" text="5" parse-escape-sequences="true" display-tooltip-when-elided="true" name="StatLevel" class="StatLevel" />
+                                </ui:VisualElement>
+                                <ui:VisualElement name="StatNameProgress_Panel" class="StatNameProgress_Panel">
+                                    <ui:Label tabindex="-1" text="Erudición" parse-escape-sequences="true" display-tooltip-when-elided="true" name="StatName" class="StatName" />
+                                    <ui:VisualElement name="StatProgress" class="StatProgress">
+                                        <ui:VisualElement name="StatProgressBar" class="StatProgressBar" />
+                                    </ui:VisualElement>
+                                </ui:VisualElement>
+                            </ui:VisualElement>
+                            <ui:VisualElement name="Stat2_Panel" class="Stat_Panel">
+                                <ui:VisualElement name="StatIcon_Panel" class="StatIcon_Panel" style="-unity-background-image-tint-color: rgb(0, 255, 164);">
+                                    <ui:VisualElement name="StatIcon" class="StatIcon" style="background-image: url(&apos;project://database/Assets/UI/UIAssets/DialogueUI/Templanza_icon.png?fileID=2800000&amp;guid=441ed73c587a3d44e92332ce005fa301&amp;type=3#Templanza_icon&apos;);" />
+                                    <ui:Label tabindex="-1" text="2" parse-escape-sequences="true" display-tooltip-when-elided="true" name="StatLevel" class="StatLevel" />
+                                </ui:VisualElement>
+                                <ui:VisualElement name="StatNameProgress_Panel" class="StatNameProgress_Panel">
+                                    <ui:Label tabindex="-1" text="Templanza" parse-escape-sequences="true" display-tooltip-when-elided="true" name="StatName" class="StatName" />
+                                    <ui:VisualElement name="StatProgress" class="StatProgress">
+                                        <ui:VisualElement name="StatProgressBar" class="StatProgressBar" />
+                                    </ui:VisualElement>
+                                </ui:VisualElement>
+                            </ui:VisualElement>
+                            <ui:VisualElement name="Stat3_Panel" class="Stat_Panel">
+                                <ui:VisualElement name="StatIcon_Panel" class="StatIcon_Panel" style="-unity-background-image-tint-color: rgb(0, 39, 255);">
+                                    <ui:VisualElement name="StatIcon" class="StatIcon" style="background-image: url(&apos;project://database/Assets/UI/UIAssets/DialogueUI/Ardid_icon.png?fileID=2800000&amp;guid=cd8746eb4ff273641b691c1e3d739def&amp;type=3#Ardid_icon&apos;);" />
+                                    <ui:Label tabindex="-1" text="1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="StatLevel" class="StatLevel" />
+                                </ui:VisualElement>
+                                <ui:VisualElement name="StatNameProgress_Panel" class="StatNameProgress_Panel">
+                                    <ui:Label tabindex="-1" text="Ardid" parse-escape-sequences="true" display-tooltip-when-elided="true" name="StatName" class="StatName" />
+                                    <ui:VisualElement name="StatProgress" class="StatProgress">
+                                        <ui:VisualElement name="StatProgressBar" class="StatProgressBar" />
+                                    </ui:VisualElement>
+                                </ui:VisualElement>
+                            </ui:VisualElement>
+                            <ui:VisualElement name="Stat4_Panel" class="Stat_Panel">
+                                <ui:VisualElement name="StatIcon_Panel" class="StatIcon_Panel" style="-unity-background-image-tint-color: rgb(253, 216, 0);">
+                                    <ui:VisualElement name="StatIcon" class="StatIcon" style="background-image: url(&apos;project://database/Assets/UI/UIAssets/DialogueUI/Gracia_icon.png?fileID=2800000&amp;guid=2c35153ddb8a2aa47b6f818b98bcb186&amp;type=3#Gracia_icon&apos;);" />
+                                    <ui:Label tabindex="-1" text="3" parse-escape-sequences="true" display-tooltip-when-elided="true" name="StatLevel" class="StatLevel" />
+                                </ui:VisualElement>
+                                <ui:VisualElement name="StatNameProgress_Panel" class="StatNameProgress_Panel">
+                                    <ui:Label tabindex="-1" text="Gracia" parse-escape-sequences="true" display-tooltip-when-elided="true" name="StatName" class="StatName" />
+                                    <ui:VisualElement name="StatProgress" class="StatProgress">
+                                        <ui:VisualElement name="StatProgressBar" class="StatProgressBar" />
+                                    </ui:VisualElement>
+                                </ui:VisualElement>
+                            </ui:VisualElement>
+                            <ui:VisualElement name="Stat5_Panel" class="Stat_Panel">
+                                <ui:VisualElement name="StatIcon_Panel" class="StatIcon_Panel">
+                                    <ui:VisualElement name="StatIcon" class="StatIcon" style="background-image: url(&apos;project://database/Assets/UI/UIAssets/DialogueUI/Lucidez_icon.png?fileID=2800000&amp;guid=9bbf52ff4d0abe74a95f248604783df7&amp;type=3#Lucidez_icon&apos;);" />
+                                    <ui:Label tabindex="-1" text="4" parse-escape-sequences="true" display-tooltip-when-elided="true" name="StatLevel" class="StatLevel" />
+                                </ui:VisualElement>
+                                <ui:VisualElement name="StatNameProgress_Panel" class="StatNameProgress_Panel">
+                                    <ui:Label tabindex="-1" text="Lucidez" parse-escape-sequences="true" display-tooltip-when-elided="true" name="StatName" class="StatName" />
+                                    <ui:VisualElement name="StatProgress" class="StatProgress">
+                                        <ui:VisualElement name="StatProgressBar" class="StatProgressBar" />
+                                    </ui:VisualElement>
+                                </ui:VisualElement>
+                            </ui:VisualElement>
+                            <ui:VisualElement name="Stat6_Panel" class="Stat_Panel">
+                                <ui:VisualElement name="StatIcon_Panel" class="StatIcon_Panel" style="-unity-background-image-tint-color: rgb(250, 0, 0);">
+                                    <ui:VisualElement name="StatIcon" class="StatIcon" style="background-image: url(&apos;project://database/Assets/UI/UIAssets/DialogueUI/Valentia_icon.png?fileID=2800000&amp;guid=f404fc3f7a0de1e4586b38c94cbf3a59&amp;type=3#Valentia_icon&apos;);" />
+                                    <ui:Label tabindex="-1" text="2" parse-escape-sequences="true" display-tooltip-when-elided="true" name="StatLevel" class="StatLevel" />
+                                </ui:VisualElement>
+                                <ui:VisualElement name="StatNameProgress_Panel" class="StatNameProgress_Panel">
+                                    <ui:Label tabindex="-1" text="Valentía" parse-escape-sequences="true" display-tooltip-when-elided="true" name="StatName" class="StatName" />
+                                    <ui:VisualElement name="StatProgress" class="StatProgress">
+                                        <ui:VisualElement name="StatProgressBar" class="StatProgressBar" />
+                                    </ui:VisualElement>
+                                </ui:VisualElement>
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                        <ui:VisualElement name="AppOptions" class="AppOptions" />
+                        <ui:VisualElement name="AppExit" class="AppExit">
+                            <ui:VisualElement name="ExitCenter_Panel" class="ExitCenter_Panel">
+                                <ui:Label tabindex="-1" text="Salir al Menú" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ExitButton1" focusable="true" class="ExitButton" />
+                                <ui:Label tabindex="-1" text="Salir al Escritorio" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ExitButton2" focusable="true" class="ExitButton" />
+                                <ui:Label tabindex="-1" text="Atrás" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ExitButton3" focusable="true" class="ExitButton" style="width: 50%; background-color: rgb(142, 142, 142);" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                        <ui:VisualElement name="AppBuffsPassives" class="AppBuffsPassives">
+                            <ui:VisualElement name="Tabs_Panel" class="Tabs_Panel">
+                                <ui:Label tabindex="-1" text="Buffs" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Tab_Buffs" focusable="true" class="Tab" />
+                                <ui:Label tabindex="-1" text="Passives" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Tab_Passives" focusable="true" class="Tab" />
+                            </ui:VisualElement>
+                            <ui:VisualElement name="Content_Panel" class="Content_Panel">
+                                <ui:VisualElement name="Buffs_Panel" class="Buffs_Panel HideDisplay">
+                                    <ui:VisualElement name="Buff1" class="Buff HideDisplay" style="flex-direction: column;">
+                                        <ui:VisualElement name="Buff_Icon" class="Buff_Icon" style="-unity-background-image-tint-color: rgb(135, 0, 255);" />
+                                        <ui:Label tabindex="-1" text="00:00" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Buff_Timer" class="Buff_Timer" />
+                                        <ui:Label tabindex="-1" text="Texto de ejemplo asi medio largo para ver cuanto ocupa asi como 4 lineas va de pinga esto" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Buff_Description" class="Buff_Description" />
+                                    </ui:VisualElement>
+                                    <ui:VisualElement name="Buff2" class="Buff HideDisplay">
+                                        <ui:VisualElement name="Buff_Icon" class="Buff_Icon" style="-unity-background-image-tint-color: rgb(0, 255, 164);" />
+                                        <ui:Label tabindex="-1" text="00:00" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Buff_Timer" class="Buff_Timer" />
+                                        <ui:Label tabindex="-1" text="Texto de ejemplo asi medio largo para ver cuanto ocupa asi como 4 lineas va de pinga esto" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Buff_Description" class="Buff_Description" />
+                                    </ui:VisualElement>
+                                    <ui:VisualElement name="Buff3" class="Buff HideDisplay">
+                                        <ui:VisualElement name="Buff_Icon" class="Buff_Icon" style="-unity-background-image-tint-color: rgb(0, 39, 255);" />
+                                        <ui:Label tabindex="-1" text="00:00" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Buff_Timer" class="Buff_Timer" />
+                                        <ui:Label tabindex="-1" text="Aumenta ligeramente el Ardid durante 1 horas" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Buff_Description" class="Buff_Description" />
+                                    </ui:VisualElement>
+                                    <ui:VisualElement name="Buff4" class="Buff HideDisplay">
+                                        <ui:VisualElement name="Buff_Icon" class="Buff_Icon" style="-unity-background-image-tint-color: rgb(253, 216, 0);" />
+                                        <ui:Label tabindex="-1" text="00:00" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Buff_Timer" class="Buff_Timer" />
+                                        <ui:Label tabindex="-1" text="Texto de ejemplo asi medio largo para ver cuanto ocupa asi como 4 lineas va de pinga esto" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Buff_Description" class="Buff_Description" />
+                                    </ui:VisualElement>
+                                    <ui:VisualElement name="Buff5" class="Buff HideDisplay">
+                                        <ui:VisualElement name="Buff_Icon" class="Buff_Icon" style="-unity-background-image-tint-color: rgb(255, 255, 255);" />
+                                        <ui:Label tabindex="-1" text="00:00" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Buff_Timer" class="Buff_Timer" />
+                                        <ui:Label tabindex="-1" text="Aumenta enormemente la Lucidez durante 1 hora" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Buff_Description" class="Buff_Description" />
+                                    </ui:VisualElement>
+                                    <ui:VisualElement name="Buff6" class="Buff HideDisplay">
+                                        <ui:VisualElement name="Buff_Icon" class="Buff_Icon" style="-unity-background-image-tint-color: rgb(250, 0, 0);" />
+                                        <ui:Label tabindex="-1" text="00:00" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Buff_Timer" class="Buff_Timer" />
+                                        <ui:Label tabindex="-1" text="Aumenta ligeramente la Valentía durante 2 horas" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Buff_Description" class="Buff_Description" />
+                                    </ui:VisualElement>
+                                    <ui:VisualElement name="Buff7" class="Buff HideDisplay">
+                                        <ui:VisualElement name="Buff_Icon" class="Buff_Icon" style="-unity-background-image-tint-color: rgb(135, 0, 255);" />
+                                        <ui:Label tabindex="-1" text="00:00" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Buff_Timer" class="Buff_Timer" />
+                                        <ui:Label tabindex="-1" text="Disminuye ligeramente la Erudición durante 2 horas" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Buff_Description" class="Buff_Description" />
+                                    </ui:VisualElement>
+                                    <ui:VisualElement name="Buff8" class="Buff HideDisplay">
+                                        <ui:VisualElement name="Buff_Icon" class="Buff_Icon" style="-unity-background-image-tint-color: rgb(0, 255, 164);" />
+                                        <ui:Label tabindex="-1" text="00:00" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Buff_Timer" class="Buff_Timer" />
+                                        <ui:Label tabindex="-1" text="Disminuye ligeramente la Templanza durante 1 hora" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Buff_Description" class="Buff_Description" />
+                                    </ui:VisualElement>
+                                    <ui:VisualElement name="Buff9" class="Buff HideDisplay">
+                                        <ui:VisualElement name="Buff_Icon" class="Buff_Icon" style="-unity-background-image-tint-color: rgb(0, 39, 255);" />
+                                        <ui:Label tabindex="-1" text="00:00" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Buff_Timer" class="Buff_Timer" />
+                                        <ui:Label tabindex="-1" text="Disminuye ligeramente el Ardid durante 1 hora" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Buff_Description" class="Buff_Description" />
+                                    </ui:VisualElement>
+                                    <ui:VisualElement name="Buff10" class="Buff HideDisplay">
+                                        <ui:VisualElement name="Buff_Icon" class="Buff_Icon" style="-unity-background-image-tint-color: rgb(253, 216, 0);" />
+                                        <ui:Label tabindex="-1" text="00:00" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Buff_Timer" class="Buff_Timer" />
+                                        <ui:Label tabindex="-1" text="Disminuye enormemente la Gracia durante 3 horas" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Buff_Description" class="Buff_Description" />
+                                    </ui:VisualElement>
+                                </ui:VisualElement>
+                                <ui:VisualElement name="Passives_Panel" class="Passives_Panel">
+                                    <ui:VisualElement name="Passive1" class="Passive HideDisplay">
+                                        <ui:VisualElement name="Passive_Icon" class="Passive_Icon" />
+                                        <ui:Label tabindex="-1" text="Es el vecino el que elige al alcalde y es el alcalde el que quiere que sean los vecinos el alcalde" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Passive_Description" class="Passive_Description" />
+                                    </ui:VisualElement>
+                                    <ui:VisualElement name="Passive2" class="Passive HideDisplay">
+                                        <ui:VisualElement name="Passive_Icon" class="Passive_Icon" />
+                                        <ui:Label tabindex="-1" text="Cuanto peor para ellos mejor para mi y cuanto mejor para mi peor para ellos el suyo beneficio" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Passive_Description" class="Passive_Description" />
+                                    </ui:VisualElement>
+                                    <ui:VisualElement name="Passive3" class="Passive HideDisplay">
+                                        <ui:VisualElement name="Passive_Icon" class="Passive_Icon" />
+                                        <ui:Label tabindex="-1" text="Sin duda alguna mi campeón favorito Anivia la criofenix, es muy divertida de usar..." parse-escape-sequences="true" display-tooltip-when-elided="true" name="Passive_Description" class="Passive_Description" />
+                                    </ui:VisualElement>
+                                    <ui:VisualElement name="Passive4" class="Passive HideDisplay">
+                                        <ui:VisualElement name="Passive_Icon" class="Passive_Icon" />
+                                        <ui:Label tabindex="-1" text="Es el vecino el que elige al alcalde y es el alcalde el que quiere que sean los vecinos el alcalde" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Passive_Description" class="Passive_Description" />
+                                    </ui:VisualElement>
+                                    <ui:VisualElement name="Passive5" class="Passive HideDisplay">
+                                        <ui:VisualElement name="Passive_Icon" class="Passive_Icon" />
+                                        <ui:Label tabindex="-1" text="Es el vecino el que elige al alcalde y es el alcalde el que quiere que sean los vecinos el alcalde" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Passive_Description" class="Passive_Description" />
+                                    </ui:VisualElement>
+                                    <ui:VisualElement name="Passive6" class="Passive HideDisplay">
+                                        <ui:VisualElement name="Passive_Icon" class="Passive_Icon" />
+                                        <ui:Label tabindex="-1" text="Es el vecino el que elige al alcalde y es el alcalde el que quiere que sean los vecinos el alcalde" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Passive_Description" class="Passive_Description" />
+                                    </ui:VisualElement>
+                                    <ui:VisualElement name="Passive7" class="Passive HideDisplay">
+                                        <ui:VisualElement name="Passive_Icon" class="Passive_Icon" />
+                                        <ui:Label tabindex="-1" text="Es el vecino el que elige al alcalde y es el alcalde el que quiere que sean los vecinos el alcalde" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Passive_Description" class="Passive_Description" />
+                                    </ui:VisualElement>
+                                    <ui:VisualElement name="Passive8" class="Passive HideDisplay">
+                                        <ui:VisualElement name="Passive_Icon" class="Passive_Icon" />
+                                        <ui:Label tabindex="-1" text="Es el vecino el que elige al alcalde y es el alcalde el que quiere que sean los vecinos el alcalde" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Passive_Description" class="Passive_Description" />
+                                    </ui:VisualElement>
+                                    <ui:VisualElement name="Passive9" class="Passive HideDisplay">
+                                        <ui:VisualElement name="Passive_Icon" class="Passive_Icon" />
+                                        <ui:Label tabindex="-1" text="Es el vecino el que elige al alcalde y es el alcalde el que quiere que sean los vecinos el alcalde" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Passive_Description" class="Passive_Description" />
+                                    </ui:VisualElement>
+                                    <ui:VisualElement name="Passive10" class="Passive HideDisplay">
+                                        <ui:VisualElement name="Passive_Icon" class="Passive_Icon" />
+                                        <ui:Label tabindex="-1" text="Es el vecino el que elige al alcalde y es el alcalde el que quiere que sean los vecinos el alcalde" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Passive_Description" class="Passive_Description" />
+                                    </ui:VisualElement>
+                                </ui:VisualElement>
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                        <ui:VisualElement name="AppEquipment" class="AppEquipment" style="-unity-background-image-tint-color: rgb(212, 192, 53);">
+                            <ui:VisualElement name="Special_Panel" class="Special_Panel" />
+                            <ui:VisualElement name="Jacket_Panel" class="Jacket_Panel" />
+                            <ui:VisualElement name="Pants_Panel" class="Pants_Panel" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="AppCollectibles" class="AppCollectibles">
+                            <ui:VisualElement name="Tabs_Panel" class="Tabs_Panel">
+                                <ui:Label tabindex="-1" text="Bottles" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Tab_Bottles" focusable="true" class="Tab" />
+                                <ui:Label tabindex="-1" text="Clippers" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Tab_Clippers" focusable="true" class="Tab" />
+                            </ui:VisualElement>
+                            <ui:VisualElement name="Content_Panel" class="Content_Panel">
+                                <ui:VisualElement name="Bottles_Panel" class="Collectibles_Panel" style="background-color: rgba(0, 0, 0, 0);">
+                                    <ui:VisualElement name="Collectible1" focusable="true" class="Collectible NotCollectible" style="background-image: url(&apos;project://database/Assets/Graphics/Sprites/CollectibleSprites/BottleSprites/Golden%20Ale.PNG?fileID=2800000&amp;guid=976670da9756d0a43b829ff062c25c7b&amp;type=3#Golden Ale&apos;);" />
+                                    <ui:VisualElement name="Collectible2" focusable="true" class="Collectible NotCollectible" style="background-image: url(&apos;project://database/Assets/Graphics/Sprites/CollectibleSprites/BottleSprites/Red%20Ale.PNG?fileID=2800000&amp;guid=d294a15d9a4060d4782b79050fdd661c&amp;type=3#Red Ale&apos;);" />
+                                    <ui:VisualElement name="Collectible3" focusable="true" class="Collectible NotCollectible" style="background-image: url(&apos;project://database/Assets/Graphics/Sprites/CollectibleSprites/BottleSprites/Amber%20Ale.PNG?fileID=2800000&amp;guid=22ffef9774b13ef43a3d909ac2c0e102&amp;type=3#Amber Ale&apos;);" />
+                                    <ui:VisualElement name="Collectible4" focusable="true" class="Collectible NotCollectible" style="background-image: url(&apos;project://database/Assets/Graphics/Sprites/CollectibleSprites/BottleSprites/Porter.PNG?fileID=2800000&amp;guid=798b7b1d71a2b9747b0dae839e45a960&amp;type=3#Porter&apos;);" />
+                                    <ui:VisualElement name="Collectible5" focusable="true" class="Collectible NotCollectible" style="background-image: url(&apos;project://database/Assets/Graphics/Sprites/CollectibleSprites/BottleSprites/Stout.PNG?fileID=2800000&amp;guid=152922c8a815b6c40862010210dda302&amp;type=3#Stout&apos;);" />
+                                    <ui:VisualElement name="Collectible6" focusable="true" class="Collectible NotCollectible" style="background-image: url(&apos;project://database/Assets/Graphics/Sprites/CollectibleSprites/BottleSprites/Russian%20Stout.PNG?fileID=2800000&amp;guid=43ce14e2fe39dc44ea28658523341cce&amp;type=3#Russian Stout&apos;);" />
+                                    <ui:VisualElement name="Collectible7" focusable="true" class="Collectible NotCollectible" style="background-image: url(&apos;project://database/Assets/Graphics/Sprites/CollectibleSprites/BottleSprites/IPA.PNG?fileID=2800000&amp;guid=285aa2dcd5ce98c4290cd1b28f57c3e4&amp;type=3#IPA&apos;);" />
+                                    <ui:VisualElement name="Collectible8" focusable="true" class="Collectible NotCollectible" style="background-image: url(&apos;project://database/Assets/Graphics/Sprites/CollectibleSprites/BottleSprites/Double%20IPA.PNG?fileID=2800000&amp;guid=be5449248ace66a4d8923155044b2a8e&amp;type=3#Double IPA&apos;);" />
+                                    <ui:VisualElement name="Collectible9" focusable="true" class="Collectible NotCollectible" style="background-image: url(&apos;project://database/Assets/Graphics/Sprites/CollectibleSprites/BottleSprites/NEIPA.PNG?fileID=2800000&amp;guid=6cdea1cb3805adf4c9100a2e36e4d9e5&amp;type=3#NEIPA&apos;);" />
+                                    <ui:VisualElement name="Collectible10" focusable="true" class="Collectible NotCollectible" style="background-image: url(&apos;project://database/Assets/Graphics/Sprites/CollectibleSprites/BottleSprites/Imperial%20Amber%20Ale.PNG?fileID=2800000&amp;guid=9cc18a8bac15610499748ea4015f1f97&amp;type=3#Imperial Amber Ale&apos;);" />
+                                    <ui:VisualElement name="Collectible11" focusable="true" class="Collectible NotCollectible" style="background-image: url(&apos;project://database/Assets/Graphics/Sprites/CollectibleSprites/BottleSprites/Imperial%20Stout.PNG?fileID=2800000&amp;guid=c0ab85d2b11efec48bcbd91b666c7bf6&amp;type=3#Imperial Stout&apos;);" />
+                                    <ui:VisualElement name="Collectible12" focusable="true" class="Collectible NotCollectible" style="background-image: url(&apos;project://database/Assets/Graphics/Sprites/CollectibleSprites/BottleSprites/Imperial%20IPA.PNG?fileID=2800000&amp;guid=38173cfe769d8db40a6623e4cd57baf6&amp;type=3#Imperial IPA&apos;);" />
+                                    <ui:VisualElement name="Collectible13" focusable="true" class="Collectible" />
+                                    <ui:VisualElement name="Collectible14" focusable="true" class="Collectible" />
+                                    <ui:VisualElement name="Collectible15" focusable="true" class="Collectible" />
+                                    <ui:VisualElement name="Collectible16" focusable="true" class="Collectible" />
+                                    <ui:VisualElement name="Collectible17" focusable="true" class="Collectible" />
+                                    <ui:VisualElement name="Collectible18" focusable="true" class="Collectible" />
+                                    <ui:VisualElement name="Collectible19" focusable="true" class="Collectible" />
+                                    <ui:VisualElement name="Collectible20" focusable="true" class="Collectible" />
+                                    <ui:VisualElement name="Collectible21" focusable="true" class="Collectible" />
+                                    <ui:VisualElement name="Collectible22" focusable="true" class="Collectible" />
+                                    <ui:VisualElement name="Collectible23" focusable="true" class="Collectible" />
+                                    <ui:VisualElement name="Collectible24" focusable="true" class="Collectible" />
+                                </ui:VisualElement>
+                                <ui:VisualElement name="Clippers_Panel" class="Collectibles_Panel HideDisplay">
+                                    <ui:VisualElement name="Collectible1" focusable="true" class="Collectible NotCollectible" style="background-image: url(&apos;project://database/Assets/Graphics/Sprites/CollectibleSprites/LighterSprites/Magma%20Lighter.PNG?fileID=2800000&amp;guid=ff18fd0b3898e0f4ba32cbf4467fb367&amp;type=3#Magma Lighter&apos;);" />
+                                    <ui:VisualElement name="Collectible2" focusable="true" class="Collectible NotCollectible" style="background-image: url(&apos;project://database/Assets/Graphics/Sprites/CollectibleSprites/LighterSprites/BlueHeart%20Lighter.PNG?fileID=2800000&amp;guid=d8456d48650337d42ba3c07da0a4ef6d&amp;type=3#BlueHeart Lighter&apos;);" />
+                                    <ui:VisualElement name="Collectible3" focusable="true" class="Collectible NotCollectible" style="background-image: url(&apos;project://database/Assets/Graphics/Sprites/CollectibleSprites/LighterSprites/Cosmic%20Lighter.PNG?fileID=2800000&amp;guid=a7cec3347bbb1b04daa9015db4d56ca6&amp;type=3#Cosmic Lighter&apos;);" />
+                                    <ui:VisualElement name="Collectible4" focusable="true" class="Collectible NotCollectible" style="background-image: url(&apos;project://database/Assets/Graphics/Sprites/CollectibleSprites/LighterSprites/Dry%20Lighter.PNG?fileID=2800000&amp;guid=70f5e62f0e9908c4db81da6d5de74157&amp;type=3#Dry Lighter&apos;);" />
+                                    <ui:VisualElement name="Collectible5" focusable="true" class="Collectible NotCollectible" style="background-image: url(&apos;project://database/Assets/Graphics/Sprites/CollectibleSprites/LighterSprites/Fire%20Lighter.PNG?fileID=2800000&amp;guid=017de05e23ab1934c9c19c9f672fd344&amp;type=3#Fire Lighter&apos;);" />
+                                    <ui:VisualElement name="Collectible6" focusable="true" class="Collectible NotCollectible" style="background-image: url(&apos;project://database/Assets/Graphics/Sprites/CollectibleSprites/LighterSprites/Hearth%20Lighter.PNG?fileID=2800000&amp;guid=64cd0b6ec1f16e04baf4e1183b7a891f&amp;type=3#Hearth Lighter&apos;);" />
+                                    <ui:VisualElement name="Collectible7" focusable="true" class="Collectible NotCollectible" style="background-image: url(&apos;project://database/Assets/Graphics/Sprites/CollectibleSprites/LighterSprites/Sun%20Lighter.PNG?fileID=2800000&amp;guid=0f5a310fde8e3a54da152902f93fe4bf&amp;type=3#Sun Lighter&apos;);" />
+                                    <ui:VisualElement name="Collectible8" focusable="true" class="Collectible NotCollectible" style="background-image: url(&apos;project://database/Assets/Graphics/Sprites/CollectibleSprites/LighterSprites/Holy%20Lighter.PNG?fileID=2800000&amp;guid=868f149e8633f564cab7f6284d051c6a&amp;type=3#Holy Lighter&apos;);" />
+                                    <ui:VisualElement name="Collectible9" focusable="true" class="Collectible NotCollectible" style="background-image: url(&apos;project://database/Assets/Graphics/Sprites/CollectibleSprites/LighterSprites/Ice%20Lighter.PNG?fileID=2800000&amp;guid=47217384277df2f439e99fae8441110e&amp;type=3#Ice Lighter&apos;);" />
+                                    <ui:VisualElement name="Collectible10" focusable="true" class="Collectible NotCollectible" style="background-image: url(&apos;project://database/Assets/Graphics/Sprites/CollectibleSprites/LighterSprites/Nature%20Lighter.PNG?fileID=2800000&amp;guid=329a3fa8df99e244885c48ab5b4008da&amp;type=3#Nature Lighter&apos;);" />
+                                    <ui:VisualElement name="Collectible11" focusable="true" class="Collectible NotCollectible" style="background-image: url(&apos;project://database/Assets/Graphics/Sprites/CollectibleSprites/LighterSprites/Red%20Lighter.PNG?fileID=2800000&amp;guid=d25fe36221501e14aab10f3c52102bf3&amp;type=3#Red Lighter&apos;);" />
+                                    <ui:VisualElement name="Collectible12" focusable="true" class="Collectible NotCollectible" style="background-image: url(&apos;project://database/Assets/Graphics/Sprites/CollectibleSprites/LighterSprites/Sacred%20Lighter.PNG?fileID=2800000&amp;guid=2f34f3066947e12439ad44f4f1fbe075&amp;type=3#Sacred Lighter&apos;);" />
+                                    <ui:VisualElement name="Collectible13" focusable="true" class="Collectible" />
+                                    <ui:VisualElement name="Collectible14" focusable="true" class="Collectible" />
+                                    <ui:VisualElement name="Collectible15" focusable="true" class="Collectible" />
+                                    <ui:VisualElement name="Collectible16" focusable="true" class="Collectible" />
+                                    <ui:VisualElement name="Collectible17" focusable="true" class="Collectible" />
+                                    <ui:VisualElement name="Collectible18" focusable="true" class="Collectible" />
+                                    <ui:VisualElement name="Collectible19" focusable="true" class="Collectible" />
+                                    <ui:VisualElement name="Collectible20" focusable="true" class="Collectible" />
+                                    <ui:VisualElement name="Collectible21" focusable="true" class="Collectible" />
+                                    <ui:VisualElement name="Collectible22" focusable="true" class="Collectible" />
+                                    <ui:VisualElement name="Collectible23" focusable="true" class="Collectible" />
+                                    <ui:VisualElement name="Collectible24" focusable="true" class="Collectible" />
+                                </ui:VisualElement>
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                        <ui:VisualElement name="AppKeyItems" class="ActiveApp" style="-unity-background-image-tint-color: rgb(192, 115, 39);" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="Bot_Panel" class="Bot_Panel">
+                        <ui:VisualElement name="Options" class="BotButton" style="background-image: url(&apos;project://database/Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_icondeletedremoteoverlay@2x.png?fileID=2800000&amp;guid=2cfbf6619eb047545a425e8a31732c83&amp;type=3#d_icondeletedremoteoverlay@2x&apos;);" />
+                        <ui:VisualElement name="Start" class="BotButton" style="background-image: url(&apos;project://database/Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_InputControl@4x.png?fileID=2800000&amp;guid=e2078613efd9e410c8771cbd2717f4e7&amp;type=3#d_InputControl@4x&apos;);" />
+                        <ui:VisualElement name="Back" class="BotButton" style="background-image: url(&apos;project://database/Packages/com.unity.addressables/Editor/BuildReportVisualizer/BuildReport%20Resources/Icons/d_History.Forward@2x.png?fileID=2800000&amp;guid=741fd6a7eb857a74b939184269d01239&amp;type=3#d_History.Forward@2x&apos;);" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </AspectRatioPanel>
+    </ui:VisualElement>
+</ui:UXML>

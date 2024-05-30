@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06279273f4ca275449c46daf9bca8d7a, type: 3}
+  m_Name: CafeConsumable
+  m_EditorClassIdentifier: 
+  buffSprite: {fileID: 2800000, guid: b7be9388181a47842adba596d5444a0a, type: 3}
+  consumableSprite: {fileID: 2800000, guid: 24cea0d7dcd2e654fbc99647241afc96, type: 3}
+  consumableContainer: {fileID: 654321370370293847, guid: a449eaa5db62979439c5853901b0f6b7, type: 3}
+  time: 1
+  consumableInfo: Te has tomado un cafe increible!
+  consumableBuffInfo: 'Buffo de cafe
+
+    Buffo de cafe
+
+    Buffo de cafe'

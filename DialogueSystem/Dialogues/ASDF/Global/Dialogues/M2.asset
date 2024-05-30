@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9afaced03922d5a4f8e5d9eb1b4ee064, type: 3}
+  m_Name: M2
+  m_EditorClassIdentifier: 
+  <DialogueName>k__BackingField: M2
+  <DialogueType>k__BackingField: 1
+  <IsStartingDialogue>k__BackingField: 0
+  <Choices>k__BackingField:
+  - <NextDialogue>k__BackingField: {fileID: 11400000, guid: db682fc931cef6848938c3e1f8569c31, type: 2}
+    <Text>k__BackingField: Quiero comprobar los Stats
+    <Stat>k__BackingField: /
+    <StatValue>k__BackingField: /
+  - <NextDialogue>k__BackingField: {fileID: 11400000, guid: 8cc149c6ec443524dacc0c50e1e54092, type: 2}
+    <Text>k__BackingField: Quiero probar la perspicacia y carisma
+    <Stat>k__BackingField: /
+    <StatValue>k__BackingField: /
+  - <NextDialogue>k__BackingField: {fileID: 0}
+    <Text>k__BackingField: No hace falta
+    <Stat>k__BackingField: /
+    <StatValue>k__BackingField: /
+  - <NextDialogue>k__BackingField: {fileID: 0}
+    <Text>k__BackingField: 
+    <Stat>k__BackingField: '-'
+    <StatValue>k__BackingField: '-'
+  <Text>k__BackingField: No dices nada gil? Que mas quieres hacer?
+  <Conversant>k__BackingField: Asier_Default
+  <Expression>k__BackingField: Angry

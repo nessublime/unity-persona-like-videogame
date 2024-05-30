@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0202a3095b7477a4091d56344f0af6b3, type: 3}
+  m_Name: CosasGraph
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: Cosas
+  <Groups>k__BackingField: []
+  <Nodes>k__BackingField:
+  - <ID>k__BackingField: 17311543-f8b6-403e-8a20-8eadfb0df2ed
+    <GroupID>k__BackingField: 
+    <Name>k__BackingField: MasterNode
+    <DialogueType>k__BackingField: 5
+    <Position>k__BackingField: {x: -1, y: 338}
+    <Choices>k__BackingField:
+    - <NodeID>k__BackingField: 25eea91e-c90a-4006-bad8-0966b23ad039
+      <Text>k__BackingField: Start Dialogue
+      <Stat>k__BackingField: 
+      <StatValue>k__BackingField: 
+    <Text>k__BackingField: 
+    <Stat>k__BackingField: 
+    <StatEXP>k__BackingField: 
+    <Expression>k__BackingField: 
+    <Conversant>k__BackingField: 
+    <Positions>k__BackingField:
+    - Asier
+    - Ness
+    - '  --  '
+    - '  --  '
+    - Sergio
+    <Conversants>k__BackingField:
+    - Sergio
+    - Asier
+    <Priority>k__BackingField: 
+  - <ID>k__BackingField: 25eea91e-c90a-4006-bad8-0966b23ad039
+    <GroupID>k__BackingField: 
+    <Name>k__BackingField: DialogueName
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 313, y: 321}
+    <Choices>k__BackingField:
+    - <NodeID>k__BackingField: 
+      <Text>k__BackingField: Next Dialogue
+      <Stat>k__BackingField: 
+      <StatValue>k__BackingField: 
+    <Text>k__BackingField: Cositas buenardas
+    <Stat>k__BackingField: 
+    <StatEXP>k__BackingField: 
+    <Expression>k__BackingField: Default
+    <Conversant>k__BackingField: Asier
+    <Positions>k__BackingField: []
+    <Conversants>k__BackingField: []
+    <Priority>k__BackingField: 
+  <OldGroupNames>k__BackingField: []
+  <OldUngroupedNodeNames>k__BackingField:
+  - MasterNode
+  - DialogueName
+  <OldGroupedNodeNames>k__BackingField:
+    list: []

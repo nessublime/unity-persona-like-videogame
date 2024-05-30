@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38c7682e07026a84c879dcdf280752aa, type: 3}
+  m_Name: DialogueName
+  m_EditorClassIdentifier: 
+  <DialogueName>k__BackingField: DialogueName
+  <DialogueType>k__BackingField: 4
+  <IsStartingDialogue>k__BackingField: 0
+  <Choices>k__BackingField:
+  - <NextDialogue>k__BackingField: {fileID: 11400000, guid: 15ffe7f8a949e0d43851ffb2b8447b9a, type: 2}
+  <NewPositions>k__BackingField:
+  - Ness
+  - '  --  '
+  - '  --  '
+  - J.Marcos
+  - Herranz
